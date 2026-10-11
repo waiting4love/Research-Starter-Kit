@@ -11,8 +11,8 @@ from datetime import datetime, timezone
 from xml.etree import ElementTree as ET
 
 BOOK = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'book')
-RAW = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'book')
-OUT_EPUB = os.path.join(os.path.dirname(os.path.abspath(__file__)), '科研入门指南.epub')
+RAW = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'raw')
+OUT_EPUB = os.path.join(BOOK, '科研入门指南.epub')
 
 TITLE = '科研入门指南'
 SUBTITLE = '从0开始，掌握做科研、写论文的基本流程'
