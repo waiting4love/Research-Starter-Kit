@@ -1,0 +1,165 @@
+{
+ "url": "https://dy8q0bnq8y.feishu.cn/wiki/Tz2pwvxTyiBK0zkCVszcZmJ3nwd",
+ "title": "如何写论文-Abstract - 飞书云文档",
+ "blocks": {
+  "2": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">基本思路</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "3": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">论文摘要并非“论文简介”，而更应被视为一份</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">贡献说明书（statement of contribution）</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">。其目标不是全面概述论文内容，而是在有限篇幅内，使审稿人清晰地理解：</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">本文解决了什么问题、提出了什么关键思想、以及这些贡献对领域的意义何在</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">。因此，摘要不宜冗长，而应高度凝练、逻辑清晰。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "4": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "5": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">五句话原则</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "6": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">在一般情况下，摘要可以遵循下面的 </span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">“五句话原则”</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，对应五个核心要素：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "7": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">任务背景(Context)-- 1句话</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "8": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">用最精炼的语言描述论文的大方向与任务范畴，使审稿人能够在第一时间判断论文所属领域以及所关注的核心问题。不要铺垫过多常识，直接切入主题。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "9": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">科学问题(Problem)--1-2句</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">（最关键）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "10": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">这是比方法还要关键的部分，要讲出来现有研究的挑战与痛点</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "11": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">理想情况下，这里要是一个“结构性问题”而不是一个“经验现象”，或者从经验现象出发，总结出来的结构性问题。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "12": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">比如，LLMs often fail in xxxx task，这就属于经验现象，给人一种修修补补、贡献不大的感觉，一下子就掉到了boarline区域。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "13": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">要给出一些更加本质的问题，从现象上升到机理，比如是理论有缺陷，泛化能力弱，还是稳健性不足？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "14": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">方法创新(Methodology)--1-2句</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "15": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">提出核心的解决方案，要尽可能的凝练出思想，不要堆太多细节，比如要解决稳健性弱的问题，是通过什么方法解决的，提出了新的架构？新的损失？还是新的数据合成方法？核心的思想是什么？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "16": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">关键在于让审稿人理解“为什么这种方法在逻辑上能够解决前述问题”</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "17": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">结论与贡献(Results)--1句</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "18": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验描述应以</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">具体、可量化的指标</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">为主，而非泛泛而谈；很多同学喜欢直接写一句significant performance improvement，这种写法就很普通，因为所有的论文都可以这么写。反之，明确指出在多少个数据集、对比了哪些代表性方法，以及在什么指标上取得了多大幅度的提升，会更具说服力。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "19": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">另外有一点非常重要但是经常被忽略的，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验结论应当与前文提出的科学问题形成明确呼应与逻辑闭环</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，比如，如果论文声称解决的是稳健性不足的问题，那么实验中就应突出在何种干扰或变化下，本文方法相较于现有方法提升了多少稳健性；相比之下，仅报告整体 accuracy 往往不足以支撑核心 claim。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "20": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">优秀案例</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "21": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">下面这个例子取自论文Train for theWorst, Plan for the Best: Understanding Token Ordering in Masked Diffusions（ICML 2025 Outstanding Paper)，是一个从问题分析出发提出算法的文章。问题部分非常明确和本质“trade off complexity at training time with flexibility at inference time\"，结论部分，非常有说服力：from 7% to 90%，超越了7倍参数量的模型</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "22": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/CEGjbkxD4onxgfxxn42c1r83nGy/?fallback_source=1&height=1280&mount_node_token=doxcnvwxMJguEDVMp7jtFsklYgb&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"22\" data-record-id=\"doxcnvwxMJguEDVMp7jtFsklYgb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"CEGjbkxD4onxgfxxn42c1r83nGy\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 322px;\"><div class=\"image-block-container\" style=\"width: 322px; padding-top: 145.631%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/CEGjbkxD4onxgfxxn42c1r83nGy/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcnvwxMJguEDVMp7jtFsklYgb&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"322\" height=\"468.93203883495147\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "23": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">下面这一个例子，取自ICML 2025 Oral Paper: Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies。属于非常常见的解决现有xxx方法xx问题的文章，跟大部分同学做的比较像。也是一句话确定背景，LLM推理加速很重要。然后用两句话指出问题，SD方法require the drafer and target models share the same vocabulary。然后一句话讲清楚本文工作，提出了一种不依赖shared-vocabulary constraint的方法，实验结果，回应LLM加速的问题，不依赖约束，实现了2.8倍的加速。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "24": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/ZyAVbtL6foD3XxxOV6HcG4m1nHd/?fallback_source=1&height=1280&mount_node_token=doxcnGfCUVpGcxHOjSL5jyezU7e&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"24\" data-record-id=\"doxcnGfCUVpGcxHOjSL5jyezU7e\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"ZyAVbtL6foD3XxxOV6HcG4m1nHd\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 282px;\"><div class=\"image-block-container\" style=\"width: 282px; padding-top: 145.631%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/ZyAVbtL6foD3XxxOV6HcG4m1nHd/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcnGfCUVpGcxHOjSL5jyezU7e&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"282\" height=\"410.67961165048547\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "25": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">这是一个benchmark论文的例子，取自ICML 2025 Oral Paper: LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models。也是一句话确定背景，Scientific equation discovery很重要。然后2句话明确背景与问题，LLM用于SR得到了很多关注，但是难以评估，不能反映真实能力；本文提出了一个LLM-SRBench，覆盖了多少个问题（有数字，239），4个领域，2大类别LLM-Transform和LSR-Synth。最后实验评估了多少模型，这里如果把several SOTA methods换成评估了几类算法、多少个模型会更好。结论发现了什么现象、对该领域有何贡献。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "26": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/KoBpbM9fco8cDOxuN6XcHtWQnXA/?preview_type=16",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"26\" data-record-id=\"doxcnIlYQnOXU5jpi9TpjQxlZCb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"KoBpbM9fco8cDOxuN6XcHtWQnXA\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 284px;\"><div class=\"image-block-container\" style=\"width: 284px; padding-top: 182.512%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/KoBpbM9fco8cDOxuN6XcHtWQnXA/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"284\" height=\"518.3349753694581\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "27": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  }
+ }
+}

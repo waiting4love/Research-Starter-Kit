@@ -1,0 +1,287 @@
+{
+ "url": "https://dy8q0bnq8y.feishu.cn/wiki/B8FBwaHe6ivi2skemtFc3lWbnmh",
+ "title": "如何高效Meeting - 飞书云文档",
+ "blocks": {
+  "2": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">为什么要Meeting</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "3": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Meeting主要是为了</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">帮助大家更高效地推进科研工作，而不是简单的工作进度汇报</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，在科研的过程中会有试错的探索和没有进展的情况，不要把Meeting当成一种压力。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "4": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Meeting 的核心目标不是“证明自己做了很多事情”，而是</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">暴露问题、澄清思路、获得反馈、推进工作</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "5": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">除了常规的定期Meeting之外，在项目推进过程中，有任何你觉得需要讨论的进展或者问题，都可以随时约时间讨论，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">培养有问题就讨论的习惯</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "6": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "7": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Meeting的组织形式</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "8": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">针对在推进的Project：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "9": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">以Project为单位meeting，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Project leader要承担协调大家时间、约会议的任务.</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "10": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">针对当前在做的Project，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">每一个Project维护一个文档</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，包含</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">整个Project要做的事情、Technical Contribution、时间规划、项目组成员及分工、当前的主要进展、实验结果和存在的问题；</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">不要长篇大论，凝练核心要点</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "11": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">如果个人还没有参与project，仍处于学习阶段</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "12": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">维护一个个人的进展文档，包括目前正在关注的事情、读的论文（</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">不要详细介绍，凝练核心观点即可</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">）、个人的思考和讨论</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "13": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Meeting频率</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "14": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">对于在推进的Project，至少2周meeting一次，中间有重要的结果和进展，可以随时约时间交流</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "15": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">对于个人Meeting，建议博士生和硕士生至少2周Meeting一次、在外实习的研究生和本科实习生至少1个月一次</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "16": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "17": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Meeting模版</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "18": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">每次Meeting之前，整理一下相比上次Meeting有哪些新的进展，大体逻辑可以按照如下方式组织：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "19": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">Review一下整个项目的大方向和Contribution，反思自己是否在正确的道路上</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "20": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">回顾一下上次meeting的结论和Todo</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "21": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">总结一下自上次meeting后的进展，不要长篇大论，三句话以内讲清楚。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "22": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">列出想要讨论的问题、有意思的实验现象、观察等</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "23": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">分享几篇最近读的论文，和对应的一句话内容总结</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "24": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">后续的Todo list和时间安排</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "25": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "26": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验室的讨论原则（</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">重要</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">）：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "27": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">充分交流</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，交流的时候不要害怕老师、高年级同学，不要因此而不敢问问题，有问题请及时问，实验室的老师、学长都非常友好，乐于解答问题。</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">讨论交流的唯一目的是: 正确、高效，能解决你对project的疑问。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "28": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">平等交流</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，不是汇报与被汇报的关系。如果科研上有自己的想法，请表达出来。如果觉得老师、师兄师姐有说错的地方，请有礼貌地质疑和讨论。不要一味地听信老师、学长的话，但更不要表面服从而底下做自己的想法，这样会浪费很多交流时间和实验成本。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "29": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">高效真诚</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，不要搞太虚的东西，直入主题，高效沟通。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "30": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">事事有回应，</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">讨论的todo，要有效回应，不要讨论完就结束了。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "31": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "32": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">典型正反面案例</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "33": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/JVKpb07UeowlrExDwOacpxTYnxg/?fallback_source=1&height=1280&mount_node_token=doxcnooG9i8RnmHiUVQhiQLZ1hh&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-grid-block\" data-block-type=\"grid\" data-block-id=\"33\" data-record-id=\"doxcntUp2iAHuUp2uM68HsOBZNg\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-block j-grid-block grid-horizontal\" style=\"border-radius: 8px;\"><div class=\"render-unit-wrapper grid-render-unit\"><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"34\" data-record-id=\"doxcn6AbgNX0q94PvLRDsTXsE6b\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(47.8122% - 7.64995px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"35\" data-record-id=\"doxcnooG9i8RnmHiUVQhiQLZ1hh\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"JVKpb07UeowlrExDwOacpxTYnxg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 80.2893%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/JVKpb07UeowlrExDwOacpxTYnxg/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcnooG9i8RnmHiUVQhiQLZ1hh&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"710.6971153846154\" style=\"max-width: 100%; max-height: 121.256%; transform-origin: 50% 58.765%; transform: translate(0%, -17.53%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">48%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"36\" data-record-id=\"doxcnZiFeUfdw3yrNEhuYmP1rGh\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(52.1878% - 8.35005px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"37\" data-record-id=\"doxcne6cbNNd3jWQ5NwgA2DCXHc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"EaOHbNz2xogbgTxtSxvcqOlFnaf\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 73.4941%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/EaOHbNz2xogbgTxtSxvcqOlFnaf/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcne6cbNNd3jWQ5NwgA2DCXHc&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"726.4819277108434\" style=\"max-width: 100%; max-height: 135.41%; transform-origin: 50% 36.925%; transform: translate(0%, 0%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">52%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap disabled\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid"
+  },
+  "34": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/JVKpb07UeowlrExDwOacpxTYnxg/?fallback_source=1&height=1280&mount_node_token=doxcnooG9i8RnmHiUVQhiQLZ1hh&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"34\" data-record-id=\"doxcn6AbgNX0q94PvLRDsTXsE6b\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(47.8122% - 7.64995px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"35\" data-record-id=\"doxcnooG9i8RnmHiUVQhiQLZ1hh\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"JVKpb07UeowlrExDwOacpxTYnxg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 80.2893%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/JVKpb07UeowlrExDwOacpxTYnxg/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcnooG9i8RnmHiUVQhiQLZ1hh&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"710.6971153846154\" style=\"max-width: 100%; max-height: 121.256%; transform-origin: 50% 58.765%; transform: translate(0%, -17.53%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">48%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "35": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/JVKpb07UeowlrExDwOacpxTYnxg/?fallback_source=1&height=1280&mount_node_token=doxcnooG9i8RnmHiUVQhiQLZ1hh&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"35\" data-record-id=\"doxcnooG9i8RnmHiUVQhiQLZ1hh\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"JVKpb07UeowlrExDwOacpxTYnxg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 80.2893%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/JVKpb07UeowlrExDwOacpxTYnxg/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcnooG9i8RnmHiUVQhiQLZ1hh&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"710.6971153846154\" style=\"max-width: 100%; max-height: 121.256%; transform-origin: 50% 58.765%; transform: translate(0%, -17.53%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "36": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/EaOHbNz2xogbgTxtSxvcqOlFnaf/?fallback_source=1&height=1280&mount_node_token=doxcne6cbNNd3jWQ5NwgA2DCXHc&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"36\" data-record-id=\"doxcnZiFeUfdw3yrNEhuYmP1rGh\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(52.1878% - 8.35005px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"37\" data-record-id=\"doxcne6cbNNd3jWQ5NwgA2DCXHc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"EaOHbNz2xogbgTxtSxvcqOlFnaf\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 73.4941%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/EaOHbNz2xogbgTxtSxvcqOlFnaf/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcne6cbNNd3jWQ5NwgA2DCXHc&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"726.4819277108434\" style=\"max-width: 100%; max-height: 135.41%; transform-origin: 50% 36.925%; transform: translate(0%, 0%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">52%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "37": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/EaOHbNz2xogbgTxtSxvcqOlFnaf/?fallback_source=1&height=1280&mount_node_token=doxcne6cbNNd3jWQ5NwgA2DCXHc&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"37\" data-record-id=\"doxcne6cbNNd3jWQ5NwgA2DCXHc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"EaOHbNz2xogbgTxtSxvcqOlFnaf\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 73.4941%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/EaOHbNz2xogbgTxtSxvcqOlFnaf/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcne6cbNNd3jWQ5NwgA2DCXHc&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"726.4819277108434\" style=\"max-width: 100%; max-height: 135.41%; transform-origin: 50% 36.925%; transform: translate(0%, 0%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "38": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">为什么博士A好：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "39": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">有自己的思考：遇到困难、没有进展，会分析可能的原因，不是只说“效果不好”，而要进一步分析：为什么效果不好？是方法问题、数据问题、实现问题，还是假设本身不成立？这个失败说明了什么？是否可以从失败中提炼新的研究问题？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "40": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">讨论思路清晰：我们有XX结果，碰到了XX问题，可能是什么原因，己经试了XX方法，后面可能还可以怎么做。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "41": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验能力强：能够快速对一些方案进行尝试和结果分析。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "42": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">对新东西有好奇心：聊天的时候偶尔提到的新的概念和领域，会去看paper，再来探讨。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "43": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "44": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">为什么博士B不好：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "45": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">只汇报，不讨论：每周meeting都是汇报，没有形成自己的思考和规划。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "46": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">缺少自己的思考：经常汇报效果不好，但是原因呢？没有分析。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "47": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验能力弱：不能很好的安排时间，快速的做可行方案的调研和试错。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  }
+ }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI 辅助科研的一些 Tips · 科研入门指南</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-init">
+<div id="progress-bar"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar"><div class="sidebar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">研</span><span class="brand-text">科研入门指南</span></a>
+    <div class="search-wrap"><input id="search-input" type="search" placeholder="搜索全书…  ( / )"><div id="search-results"></div></div>
+    <nav class="nav"><div class="nav-group"><div class="nav-group-title">第一部分 · 如何做科研</div><a class="nav-link" href="ch01.html">如何做科研？</a><a class="nav-link" href="ch02.html">如何找论文？</a><a class="nav-link" href="ch03.html">如何读论文？</a><a class="nav-link" href="ch04.html">如何想 Idea？</a><a class="nav-link" href="ch05.html">如何进行学术汇报</a><a class="nav-link" href="ch06.html">如何高效 Meeting</a><a class="nav-link" href="ch07.html">一些好的习惯</a></div><div class="nav-group"><div class="nav-group-title">第二部分 · 如何写论文</div><a class="nav-link" href="ch08.html">如何写论文？</a><a class="nav-link" href="ch09.html">论文画图指南</a><a class="nav-link" href="ch10.html">如何写论文：Abstract</a><a class="nav-link" href="ch11.html">如何写论文：Introduction</a><a class="nav-link" href="ch12.html">如何写论文：Related Works</a><a class="nav-link" href="ch13.html">如何写论文：Methods</a><a class="nav-link" href="ch14.html">如何写论文：Experiments</a><a class="nav-link" href="ch15.html">如何写论文：Reference</a><a class="nav-link" href="ch16.html">如何 Rebuttal</a></div><div class="nav-group"><div class="nav-group-title">第三部分 · 杂项</div><a class="nav-link" href="ch17.html">学术会议参会指南</a><a class="nav-link" href="ch18.html">有哪些能申请的奖学金？</a><a class="nav-link active" href="ch19.html">AI 辅助科研的一些 Tips</a></div><div class="nav-group page-toc"><div class="nav-group-title">本页目录</div><a class="nav-link toc-2" href="#sec-1">快捷键</a><a class="nav-link toc-2" href="#sec-2">其他技巧</a><a class="nav-link toc-2" href="#sec-3">打通自动化科研需要</a></div></nav>
+    <div class="sidebar-foot">
+      <button id="theme-toggle" title="切换深浅色">🌙 深色模式</button>
+      <a class="src-link" href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">GitHub 原项目 ↗</a>
+    </div>
+  </div></aside>
+<div class="sidebar-mask" id="sidebar-mask"></div>
+<main class="main">
+  <div class="topbar">
+    <button class="menu-btn" id="menu-btn" aria-label="目录">☰</button>
+    <div class="crumbs">第三部分 · 杂项 · 第 19 / 19 篇</div>
+    <a class="top-src" href="index.html">目录</a>
+  </div>
+  <article class="content">
+    <header class="chapter-head">
+      <div class="chapter-group">第三部分 · 杂项</div>
+      <h1>AI 辅助科研的一些 Tips</h1>
+      <div class="chapter-meta">约 1749 字 · <a href="https://lamda3-nju.feishu.cn/wiki/Uf9fwnQFxiJS1akJZkPc87gFniq" target="_blank" rel="noopener">查看飞书原文 ↗</a></div>
+    </header>
+    <div class="doc"><h3 id="sec-1">快捷键</h3><ul class="doc-list"><li class="bl">!<strong> </strong>→ 执行会话外的 shell 命令，输出会进入上下文</li><li class="bl">@<strong> </strong>→ 引用文件 / 路径 (带自动补全)</li><li class="bl">#<strong> </strong>→ 写记忆：把一条内容追加进 CLAUDE.md，不用打开文件</li></ul><hr><ul class="doc-list"><li class="bl"><strong>换行(不发送)：</strong>Command + J 或 Option + Enter</li><li class="bl">Command + U<strong>：</strong>清空当前输入行</li><li class="bl">Command + R<strong>：</strong>搜索历史 prompt</li><li class="bl">Command + V<strong>：</strong>粘贴截图</li></ul><hr><ul class="doc-list"><li class="bl">Shift + Tab → 循环切换三种模式：</li></ul><ol class="doc-list"><li class="ol">普通：每次动手前询问</li><li class="ol">plan mode：只规划、不改文件；先规划后编码</li><li class="ol">auto-accept edits：自动接受编辑、连续执行</li></ol><p>  d. claude --dangerously-skip-permissions：允许所有操作</p><ul class="doc-list"><li class="bl">prompt 里写 think / think hard / ultrathink → 逐级提高推理预算</li></ul><hr><ul class="doc-list"><li class="bl">Esc → 立刻打断当前动作(不退出会话)</li><li class="bl"><strong>双击 </strong>Esc<strong>(= </strong>/rewind<strong>)</strong> → 回退到之前某条消息</li><li class="bl">/rewind<strong>(checkpoints)</strong> → 把对话或代码文件回滚</li><li class="bl">双击 Esc 回退对话；/rewind 能回滚代码文件</li></ul><hr><ul class="doc-list"><li class="bl"><strong>上下文(context)是当前这段对话，</strong>临时的，会话越长越满、越慢，退出当前会话就没了</li><li class="bl"><strong>记忆(</strong>CLAUDE.md<strong>)是写进文件的项目约定，</strong>持久的、清空上下文也不丢</li><li class="bl">/compact → 压缩成摘要后继续，会话变慢 / 快满时用</li><li class="bl">/clear → 彻底清空，换全新会话</li><li class="bl">/cost → 查看本次 token 消耗</li><li class="bl"># → 随手追加一条约定</li><li class="bl">/init → 扫描代码库、生成 CLAUDE.md 初稿</li><li class="bl">/export → 把当前所有会话内容导出成一个文件</li><li class="bl">/remote-control(新版本)→ 开启远程控制，从别的设备(如手机 Claude App)监控 / 操控</li></ul><h3 id="sec-2">其他技巧</h3><h4>用 /branch 管理上下文</h4><ul class="doc-list"><li class="bl">整个会话就像一棵树，branch 是在任意 turn 标记一个检查点，可以从这些检查点 resume</li><li class="bl">每个对话尽量只干一件相同研究方向的事，让上下文干净一些~</li><li class="bl">发现某个 turn 的尝试比较失败，可以用 /rewind 或者连续按两下 Esc 来回退</li></ul><h4>在动手前对齐尽可能多的细节</h4><ul class="doc-list"><li class="bl">cc 老师在遇到不确定的细节时，会自以为是地以它的意思来写，并且会静默、不汇报</li><li class="bl">在动手前把所有细节讲解出来，与我们对齐</li></ul><h4>搭建 cc 自己提交任务的 pipeline</h4><ul class="doc-list"><li class="bl">这样 AI 在任务初期可以有 smoke test 以及频繁的 debug 流程</li></ul><h4>尽量提出具体、确切的 goal</h4><ul class="doc-list"><li class="bl">例如一个可以对着一个可验证的 ground truth 自我验证的任务</li><li class="bl">可以让它起一个 subagent 作为验证者，来评判是否达成目标，若未达成能不断重启</li></ul><h4>可以先用其他论文搜索工具/网站把相关文献检索好</h4><ul class="doc-list"><li class="bl">多篇论文阅读的 context 是较长的，可以尝试将其用 subagent 实现，使上下文干净~</li></ul><h4>如果有可能，可以反复地检查代码、论文细节</h4><ul class="doc-list"><li class="bl">即使是简单的重复prompt、重复检查，push 它从各种角度检查也能发现新东西</li><li class="bl">在 prompt 中可以表达 “不怕困难” 这样的意思，让它持续探索、不退化</li></ul><h4>养成 git diff 的情况，有不明白的地方要及时问它</h4><ul class="doc-list"><li class="bl">它的总结总是很漂亮的，但是可能和实际改动对不上，特别是一些小细节</li><li class="bl">养成看 git diff 的习惯，阅读真实代码，以真实 diff 为准</li><li class="bl">可以开多个 branch 来向它提问某个你不理解的、关键的 section</li><li class="bl">及时 commit~</li></ul><h4>对 wandb 中的数据，要先人看</h4><ul class="doc-list"><li class="bl">实验中 wandb 所体现的现象，可以人先指出 xx指标出现了xx</li><li class="bl">它直接读 wandb 保存的数据可能需要长时间的搜索，并且可能污染上下文</li><li class="bl">对于实验的log（几千行），可以新开 branch 给它，它会细致地查找、定位</li></ul><h3 id="sec-3">打通自动化科研需要</h3><ol class="doc-list"><li class="ol">自动放实验、停实验、调整配置（用于监控昂贵的训练过程）</li><li class="ol">完成之后会有消息提示（在cc中可以配置hook）</li></ol><h4>一些其他的小技巧~</h4><ul class="doc-list"><li class="bl">学会使用每个项目下的CLAUDE.md</li><li class="bl">它完成后提示，可以让它自己配置一个 hook</li><li class="bl">向它解释一些禁止行为的原因</li></ul></div>
+    <div class="pager">
+    <a class="pager-link prev" href="ch18.html"><span class="pager-label">上一篇</span><span class="pager-title">有哪些能申请的奖学金？</span></a>
+    <span></span>
+  </div>
+    <footer class="chapter-foot">内容来自 <a href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">LAMDA-NeSy / Research-Starter-Kit</a>（作者：郭兰哲），本站为离线阅读副本，版权归原作者所有。</footer>
+  </article>
+</main>
+</div>
+<button id="back-top" title="回到顶部">↑</button>
+<script src="assets/search-index.js"></script>
+<script src="assets/book.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>如何想 Idea？ · 科研入门指南</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-init">
+<div id="progress-bar"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar"><div class="sidebar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">研</span><span class="brand-text">科研入门指南</span></a>
+    <div class="search-wrap"><input id="search-input" type="search" placeholder="搜索全书…  ( / )"><div id="search-results"></div></div>
+    <nav class="nav"><div class="nav-group"><div class="nav-group-title">第一部分 · 如何做科研</div><a class="nav-link" href="ch01.html">如何做科研？</a><a class="nav-link" href="ch02.html">如何找论文？</a><a class="nav-link" href="ch03.html">如何读论文？</a><a class="nav-link active" href="ch04.html">如何想 Idea？</a><a class="nav-link" href="ch05.html">如何进行学术汇报</a><a class="nav-link" href="ch06.html">如何高效 Meeting</a><a class="nav-link" href="ch07.html">一些好的习惯</a></div><div class="nav-group"><div class="nav-group-title">第二部分 · 如何写论文</div><a class="nav-link" href="ch08.html">如何写论文？</a><a class="nav-link" href="ch09.html">论文画图指南</a><a class="nav-link" href="ch10.html">如何写论文：Abstract</a><a class="nav-link" href="ch11.html">如何写论文：Introduction</a><a class="nav-link" href="ch12.html">如何写论文：Related Works</a><a class="nav-link" href="ch13.html">如何写论文：Methods</a><a class="nav-link" href="ch14.html">如何写论文：Experiments</a><a class="nav-link" href="ch15.html">如何写论文：Reference</a><a class="nav-link" href="ch16.html">如何 Rebuttal</a></div><div class="nav-group"><div class="nav-group-title">第三部分 · 杂项</div><a class="nav-link" href="ch17.html">学术会议参会指南</a><a class="nav-link" href="ch18.html">有哪些能申请的奖学金？</a><a class="nav-link" href="ch19.html">AI 辅助科研的一些 Tips</a></div><div class="nav-group page-toc"><div class="nav-group-title">本页目录</div><a class="nav-link toc-1" href="#sec-1">Problem-driven vs Method-driven</a><a class="nav-link toc-1" href="#sec-2">如何找到研究问题？</a><a class="nav-link toc-2" href="#sec-3">批判性论文阅读</a><a class="nav-link toc-2" href="#sec-4">从失败中寻找机会</a><a class="nav-link toc-2" href="#sec-5">从“是否有效、为什么有效”，反推机制</a><a class="nav-link toc-2" href="#sec-6">矛盾与不一致驱动</a><a class="nav-link toc-2" href="#sec-7">从真实应用场景中倒推</a><a class="nav-link toc-1" href="#sec-8">如何判断一个问题值不值得做</a><a class="nav-link toc-1" href="#sec-9">如何解决问题？</a></div></nav>
+    <div class="sidebar-foot">
+      <button id="theme-toggle" title="切换深浅色">🌙 深色模式</button>
+      <a class="src-link" href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">GitHub 原项目 ↗</a>
+    </div>
+  </div></aside>
+<div class="sidebar-mask" id="sidebar-mask"></div>
+<main class="main">
+  <div class="topbar">
+    <button class="menu-btn" id="menu-btn" aria-label="目录">☰</button>
+    <div class="crumbs">第一部分 · 如何做科研 · 第 4 / 19 篇</div>
+    <a class="top-src" href="index.html">目录</a>
+  </div>
+  <article class="content">
+    <header class="chapter-head">
+      <div class="chapter-group">第一部分 · 如何做科研</div>
+      <h1>如何想 Idea？</h1>
+      <div class="chapter-meta">约 2079 字 · <a href="https://dy8q0bnq8y.feishu.cn/wiki/MxYVwN0lEiv5HUkLEJccRJI3nTd" target="_blank" rel="noopener">查看飞书原文 ↗</a></div>
+    </header>
+    <div class="doc"><p><strong><span class="hl-pink">想Idea主要分成两步：选择一个好的研究问题，寻求问题的解决方案。</span></strong></p><h2 id="sec-1">Problem-driven vs Method-driven </h2><p>一般的研究过程可以分为Problem-driven Research 和 Method-drvien Research</p><p>简单来说，</p><ul class="doc-list"><li class="bl"><strong><span class="hl-pink">Problem-driven research</span></strong>：找到一个重要的问题或者目标，想办法把它做好，比如：</li><li class="bl">大模型在某个任务上性能不好，如何把性能提上去？你可以先确定1-2个benchmark，再尝试探索各种相关的技术，目标就是把任务做work。</li><li class="bl">也可以尝试去构建benchmark，把一个问题定义清楚，比如，游戏Agent方向，假设我们希望探究LLM在xx任务上的性能，但是现在还没有一个benchmark能支持类似的评估，你就可以去定义一个新的benchmark</li><li class="bl">或者在领域通用的benchmark上，对已有的技术方案进行问题分析，找到其中存在的关键挑战和问题，比如，GRPO的效率问题、信用分配问题等等，然后去尝试改进和优化。</li><li class="bl"><strong><span class="hl-pink">Method-driven research</span></strong>：拿着锤子找钉子，基于已有的技术方案，去不断解决新的问题。比如，GRPO刚出来的时候，拿来做多模态推理、Agentic RL；Skill火的时候，去解决各种数学、医疗、司法垂域问题；</li></ul><p>当然，这两种方式很多时候都是要融合的，大部分情况下我们更偏好Problem或者说Goal-driven research，在这个过程中，去对method进行适配和优化。</p><h2 id="sec-2">如何找到研究问题？</h2><h3 id="sec-3"><span class="hl-blue">批判性论文阅读</span></h3><p>参考<a href="ch03.html">📑如何读论文？</a>中提到的，在阅读论文的过程中，要尝试去“鸡蛋里面挑骨头”，多去思考论文存在的不足和问题，从而提出新的问题。<strong>把“读文献”和“提问题”绑在一起,而不是分成两个阶段，</strong>要主动思考“如果这个论文换个数据/换个假设会怎样”。这个习惯越早养成越好，很多研究生前一两年读了大量文献却提不出问题，就是因为读的时候只在“理解”，没有在“批判性质疑”。</p><h3 id="sec-4"><span class="hl-blue">从失败中寻找机会</span></h3><p>要思考当前的主流方案有哪些failure case，主动寻找和复现failure case，深入分析为什么会出现failure case，探究其背后的原因，尝试提出解决方案</p><h3 id="sec-5"><span class="hl-blue">从“是否有效、为什么有效”，反推机制</span></h3><p>对一个效果很好、但缺乏解释的方法主动追问“它内部到底在做什么、为什么能 work”，通过设计实验去进行算法分析，这类“reverse-engineering”式的问题往往比“设计一个新方法”更容易找到明确的切入口，因为你有一个已经确定有效的现象作为锚点，只需要设计实验或理论工具去拆解它，而不是从零猜一个新方法是否有效。</p><p>代表性的案例：清华大学黄高老师团队的NeurIPS 2025 最佳论文提名：<a href="https://arxiv.org/abs/2504.13837" target="_blank" rel="noopener">Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?</a></p><h3 id="sec-6"><span class="hl-blue">矛盾与不一致驱动</span></h3><p>留意文献里彼此矛盾的结论，两篇论文用相似的设定，却得出不一样甚至相反的结果。矛盾本身就是一个现成的研究问题：为什么 A 和 B 不一致？是数据、假设、评测方式,还是某个隐藏变量的差异导致的？这类问题的好处是研究问题已经被“半定义”好了，你要做的更多是设计对照实验去定位分歧的真正来源,而不是从头构造一个全新问题</p><h3 id="sec-7"><span class="hl-blue">从真实应用场景中倒推</span></h3><p>从企业真实的需求和痛点出发，比如：</p><ol class="doc-list"><li class="ol">如果有企业实习的机会，在实习期间要多去了解企业的真实难点，看看哪些可以抽象成Research Problem。</li><li class="ol">查看企业发布的各种项目指南，比如，“中国计算机学会”发布的CCF-XX企业联合基金，“中国人工智能学会”发布的CAAI-XX企业联合基金等，华为的揭榜挂帅项目等，此类信息一般可以从公众号和相关网站上获取到，这种功能指南一般都是企业已经基于自己的业务问题抽象好的research problem。</li></ol><h2 id="sec-8">如何判断一个问题值不值得做</h2><p><span class="hl-pink">通常情况下，需要和导师沟通讨论来判断该问题是不是值得做。</span></p><p>等成为高年级博士生之后，就需要有独立的价值判断能力，一个很简单的标准：<span class="hl-pink">这个问题是不是让你感到兴奋？是不是该方向的瓶颈问题？</span></p><h2 id="sec-9">如何解决问题？</h2><ul class="doc-list"><li class="bl"><strong><span class="hl-pink">迁移型</span></strong>：从其他领域借鉴成熟的方法、技术或理论，以解决当前领域尚未被解决的问题，比如ViT将注意力机制从文本迁移到图像领域。这种情况需要广泛阅读文献，寻找问题内核相同的技术，从而实现解法的迁移。</li><li class="bl"><strong><span class="hl-pink">结合型</span></strong>：能不能把A和B拼接起来？这里指的不是简单的拼接，而是具有创新性的组合，比如DQN把深度学习和强化学习结合起来，可以解决传统强化学习难以感知图像画面的问题。</li><li class="bl"><strong><span class="hl-pink">开创型</span></strong>：改变游戏规则，比如AlphaFold，面对蛋白质结构这一世纪难题，没有沿用传统的物理建模思路，而是重构了问题，基于深度学习从蛋白质序列中预测结果，这个比较难，需要一些智慧与灵感。</li><li class="bl"><strong><span class="hl-pink">AI辅助</span></strong>：2026年，与AI的讨论可以帮助你提出不少解决问题的方法。</li></ul></div>
+    <div class="pager">
+    <a class="pager-link prev" href="ch03.html"><span class="pager-label">上一篇</span><span class="pager-title">如何读论文？</span></a>
+    <a class="pager-link next" href="ch05.html"><span class="pager-label">下一篇</span><span class="pager-title">如何进行学术汇报</span></a>
+  </div>
+    <footer class="chapter-foot">内容来自 <a href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">LAMDA-NeSy / Research-Starter-Kit</a>（作者：郭兰哲），本站为离线阅读副本，版权归原作者所有。</footer>
+  </article>
+</main>
+</div>
+<button id="back-top" title="回到顶部">↑</button>
+<script src="assets/search-index.js"></script>
+<script src="assets/book.js"></script>
+</body>
+</html>

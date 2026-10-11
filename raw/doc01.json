@@ -1,0 +1,421 @@
+{
+ "1": {
+  "payload": null,
+  "type": "page"
+ },
+ "2": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">什么是研究（Research) </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading1"
+ },
+ "3": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">研究广义上可以理解为，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">通过可重复性的观察和可验证性的结果，能够对人类认识世界做出独创性且具有影响力的贡献</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">。在人工智能领域，包括但不限于</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "4": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">发现新知识</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，比如新理论、新模型架构、新算法。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "5": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">解决新问题</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，使用新技术、新设计、新方法、新模型等解决实际问题。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "6": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">如何评判研究工作的创新性与影响力</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading1"
+ },
+ "7": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">如果所做研究只是在已有工作基础上的简单推导或改进（大部分同学的工作），其创新性和影响力一般会大打折扣。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "8": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">一个非常重要，影响力极大的文章，一般有如下特点：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "9": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">抓住领域发展的关键问题，提出了新的方法，相较现有方法有很大优势</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：比如ResNet缓解深层神经网络梯度消失的问题、Transformer缓解RNN长序列依赖和并行化难题</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "10": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">为以后的工作奠定了基础，或者开辟了一个新的方向</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：比如GAN，提供了一种新的图像生成范式</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "11": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">在某些公认的任务上，性能具有显著性优势</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：比如AlexNet获得ImageNet竞赛冠军、AlphaGo战胜人类职业棋手</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "12": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">研究生的主要任务</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading1"
+ },
+ "13": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">研究生的主要任务当然是研究，其针对研究部分的主要任务包括：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "14": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">探索和构思新的想法，确保研究创新性</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：这要求学生充分了解相关研究领域的最新发展，并做大量的文献检索与阅读工作。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "15": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">将新想法辅助实验，检验其可行性</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：要证明想法具有可行性，需要做深入且严谨的实验分析，这就要求学生具有快速的代码实现能力。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "16": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">将研究结果撰写成文并投稿</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：通常情况下，AI领域的论文会投稿到相应的学术会议，经过同行评审、Rebuttal阶段，最终决定是否被录用，需要不断提高自己的论文写作能力和表达能力，以提高录用的可能性。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "17": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">评审来自其他研究者的论文投稿</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：会议要求论文作者也必须是审稿者，在这个过程中，大家的身份发生了转变，需要评判其他研究者的工作创新性和影响力。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "18": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">参加学术会议、分享论文、学习新的研究成果</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：多和活跃的同行研究者学习交流、分享自己的工作，学习他人的工作，交换想法，寻求合作。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "19": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">申请奖学金、项目经费</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：目前也有很多面向研究生、甚至本科生申请的研究经费，对于认识更多的人、提高自己的影响力以及改善生活很有帮助。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "20": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">协助指导低年级学生</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：通常情况下，高年级的博士也会与导师一起协作，协助指导和帮助低年级学生的研究工作，这也算是博士研究生额外的必修课。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "21": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">参与项目研发</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：参与课题组的科研项目，包括纵向项目与横向项目，在这个过程中，将自己的研究成果应用于真实的场景需求。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "22": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">做好的研究需要的关键能力</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading1"
+ },
+ "23": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">激情、专注、热情和兴趣</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：“我别的什么都不关心，只想着这件事”，只有对研究抱有兴趣和热情，才能日复一日去推动研究的发展。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "24": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">好奇心和创造性</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：作为研究者，不管是在研究工作还是在日常生活中，都要具备好奇心，想要探究问题的本质、实验观察的成因，把经历投入到前人未曾涉足的世界。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "25": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">批判性与独立性思考</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：不要盲从过去的知识，用怀疑的、批判性的精神去思考，比如，这个论文有什么不合理的地方？如何做的更好？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "26": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">冒险精神</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：不可能所有的想法都能成功，不要轻言放弃，要具备敢于尝试、敢于冒险的精神。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "27": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">学习能力和分析问题、解决问题的能力</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：保持每天阅读论文，时刻学习新知识和新技术。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "28": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">勤奋</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：想要做出好的科研工作，必须有一定的时间投入。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "29": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">表达与沟通能力</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：具备良好的讲故事能力，包括论文写作、学术报告、项目申请、成果答辩等方面；具备良好的沟通能力，包括与导师沟通、与同学沟通、与同行沟通等。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "30": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">做研究的基本过程</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading1"
+ },
+ "31": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Research的大致过程可以总结为TPIC，本文档也是按照这些步骤进行组织：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "32": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Topic -&gt; Problem -&gt; Idea -&gt; Concrete  work (theoretical analysis, experiments, etc.) </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "callout"
+ },
+ "33": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Topic -&gt; Problem -&gt; Idea -&gt; Concrete  work (theoretical analysis, experiments, etc.) </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "34": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-green-text textHighlight-ccmtoken-doc-textcolor-green\" data-leaf=\"true\">-&gt; Paper writing -&gt; Submit</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "35": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Topic</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading2"
+ },
+ "36": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">通常情况下，导师会给你一个topics，以我们课题组为例，对于新加入的同学，一般会给一个topics和对应的代表性论文，这个阶段需要学生做的主要任务是：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "37": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">首先，深入阅读导师推荐的论文，建立起对领域的基本认知；</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "38": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">基于导师推荐的论文，顺藤摸瓜（比如参考文献、相关工作、对比方法中提到的论文、让AI帮忙推荐等等），找到该领域尽可能多的重要文献；</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "39": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">对于一些代表性的论文要尝试进行代码复现，为后续的科研打好实验基础。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "ordered"
+ },
+ "40": {
+  "payload": {
+   "imgSrc": "https://sf1-scmcdn-cn.feishucdn.com/obj/lark-reaction-cn/green_cloud.png",
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">关于具体如何找论文、读论文，可以进一步阅读：</span><span class=\" author-7076000738450669572\" data-leaf=\"true\" style=\"margin: 0px 0.1px;\"><span data-rect-container=\"true\"><span data-zero-space=\"true\" style=\"width: auto; height: auto;\">​</span><span data-fake-text=\" \" contenteditable=\"false\" selectionapi=\"[object Object]\" class=\"mention-doc-embed-container\"><a class=\"mention-doc mention-doc-permission-fg contextmenu-without-copyperm\" target=\"_self\" href=\"https://dy8q0bnq8y.feishu.cn/wiki/Co5awLsRiiuYAlkqHhCcwGBanub\" data-href=\"https://dy8q0bnq8y.feishu.cn/wiki/Co5awLsRiiuYAlkqHhCcwGBanub\" rel=\"noopener noreferrer\" data-component-id=\"e7efc46c-f985-4be1-9f26-96a50923303a\" data-token=\"Co5awLsRiiuYAlkqHhCcwGBanub\" data-icon-info=\"null\"><span class=\"embed-inline-link embed-inline-link--hoverable\"><span><span class=\"custom-icon custom-icon__icon-image gpf-biz-suite-custom-icon__icon-wrapper\">​<img class=\"gpf-biz-suite-custom-icon__icon-image\" src=\"https://sf1-scmcdn-cn.feishucdn.com/obj/lark-reaction-cn/green_cloud.png\"></span><span class=\"text embed-text-container\">如何找论文？</span></span></span></a></span></span></span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "41": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Problem</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading2"
+ },
+ "42": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">问题是科学研究的心脏！任何有价值的研究都是为了解决某个问题，提出一个好的问题，已经成功了一半。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "callout"
+ },
+ "43": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">能够找到有价值的问题才是研究的真正开始，这可能是AI研究中最困难的部分，会找问题，是具有独立研究能力的标志。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "44": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">如何找到问题？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "45": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">少部分情况下，导师会给你一个问题，这时候就赶紧去尝试做</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "46": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">大部分情况，是需要自己产生问题，然后导师来帮你判断问题值不值得做，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-green-text textHighlight-ccmtoken-doc-textcolor-green\" data-leaf=\"true\">问题的来源主要是依靠大量的文献阅读和实验复现，通过找到现存研究的空白、现有方法的局限，去判断有哪些问题是没有解决的、需要去解决的。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "47": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">宜“小题大做”、忌“大题小做”：应该把一个问题尽可能做的全面、而不是针对一个很宏观的大问题（比如持续学习的灾难性遗忘问题）给出浅尝辄止的方案。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "48": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">更详细的内容可以参考：</span><span class=\" author-7076000738450669572\" data-leaf=\"true\" style=\"margin: 0px 0.1px;\"><span data-rect-container=\"true\"><span data-zero-space=\"true\" style=\"width: auto; height: auto;\">​</span><span data-fake-text=\" \" contenteditable=\"false\" selectionapi=\"[object Object]\" class=\"mention-doc-embed-container\"><a class=\"mention-doc mention-doc-permission-fg contextmenu-without-copyperm\" target=\"_self\" href=\"https://dy8q0bnq8y.feishu.cn/wiki/MxYVwN0lEiv5HUkLEJccRJI3nTd\" data-href=\"https://dy8q0bnq8y.feishu.cn/wiki/MxYVwN0lEiv5HUkLEJccRJI3nTd\" rel=\"noopener noreferrer\" data-component-id=\"b0ad1eb5-d188-4333-a75f-bfc148663268\" data-token=\"MxYVwN0lEiv5HUkLEJccRJI3nTd\" data-icon-info=\"null\"><span class=\"embed-inline-link embed-inline-link--hoverable\"><span><span class=\"custom-icon gpf-biz-suite-custom-icon__icon-wrapper\"><span class=\"gpf-biz-suite-custom-icon__icon-emoji windows\">💡</span></span><span class=\"text embed-text-container\">如何想Idea？</span></span></span></a></span></span></span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "49": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Idea</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading2"
+ },
+ "50": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">这个没有统一的标准思路，是真正考验聪明才智的时候。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "51": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">同样是要在大量文献阅读和代码复现的基础上，才能有比较好的idea。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "52": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">不要指望导师给你idea，但是导师可以帮助你判断和改善idea。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "53": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">相对来说，如果能够找到有价值的问题，想Idea不是一件特别难的事情，尤其是在AI时代，也可以借助大量的AI工具辅助科研。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "54": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">更详细的内容可以参考：</span><span class=\" author-7076000738450669572\" data-leaf=\"true\" style=\"margin: 0px 0.1px;\"><span data-rect-container=\"true\"><span data-zero-space=\"true\" style=\"width: auto; height: auto;\">​</span><span data-fake-text=\" \" contenteditable=\"false\" selectionapi=\"[object Object]\" class=\"mention-doc-embed-container\"><a class=\"mention-doc mention-doc-permission-fg contextmenu-without-copyperm\" target=\"_self\" href=\"https://dy8q0bnq8y.feishu.cn/wiki/MxYVwN0lEiv5HUkLEJccRJI3nTd\" data-href=\"https://dy8q0bnq8y.feishu.cn/wiki/MxYVwN0lEiv5HUkLEJccRJI3nTd\" rel=\"noopener noreferrer\" data-component-id=\"3476884c-399b-468b-a2fa-5696f3b0f34d\" data-token=\"MxYVwN0lEiv5HUkLEJccRJI3nTd\" data-icon-info=\"null\"><span class=\"embed-inline-link embed-inline-link--hoverable\"><span><span class=\"custom-icon gpf-biz-suite-custom-icon__icon-wrapper\"><span class=\"gpf-biz-suite-custom-icon__icon-emoji windows\">💡</span></span><span class=\"text embed-text-container\">如何想Idea？</span></span></span></a></span></span></span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "55": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Concrete Work</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading2"
+ },
+ "56": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Idea是否有效需要结果的支持，AI里面通常是理论分析与实验验证，我们课题组的方向以实验验证为主，这需要学生能够在日常读论文的过程中，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">熟悉本领域的常用benchmark、典型对比方法的代码（多复现相关论文）、同时善用vibe coding工具</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "57": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">为了充分验证idea的有效性，要设计周全的实验方案，并给出必要的分析与解释，例如：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "58": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Strength / Weakness</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "59": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">How / When Strong?</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "60": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Why Strong?</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "61": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">How / When Weak?</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "62": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Why Weak?</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "63": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">小结</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "heading1"
+ },
+ "64": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">对于AI研究工作来说，主要包括：</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Topics -&gt; Problem -&gt; Idea -&gt; Concrete Work</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "65": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">对于一项具体的AI研究工作来说：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "66": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">找到好的问题是关键</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "67": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">有了好的idea问题就解决了一大半</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "68": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">还需要具体、坚实的实验验证</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "bullet"
+ },
+ "69": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ },
+ "70": {
+  "payload": {
+   "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">问题是科学研究的心脏！任何有价值的研究都是为了解决某个问题，提出一个好的问题，已经成功了一半。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+  },
+  "type": "text"
+ }
+}

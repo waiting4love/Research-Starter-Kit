@@ -1,0 +1,1038 @@
+{
+ "url": "https://dy8q0bnq8y.feishu.cn/wiki/OGpcw6zaRiQ6OwkNxfYcl7IKnBh",
+ "title": "论文画图指南 - 飞书云文档",
+ "blocks": {
+  "2": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">总览</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "3": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">好的论文配图应该帮助审稿人快速回答三个问题：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "callout"
+  },
+  "4": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">好的论文配图应该帮助审稿人快速回答三个问题：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "5": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">这篇论文解决了什么重要问题？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "6": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">现有方法为什么不够好？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "7": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">你的方法有什么优势？效果如何？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "8": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">很多审稿人第一次接触论文时，会先扫一遍标题、摘要、和论文的图表。因此，图画得好不好，会直接影响论文的第一印象。好的论文配图，能让读者在几秒内抓到论文的核心贡献。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "9": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">一般来说，一篇文章的科研图表主要分为：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "10": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">动机图：通常出现在论文开头附近，用来展示论文的核心动机、问题观察或方法优势，主要作用是</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">快速引起读者的兴趣，让读者产生“这个问题确实重要，而且这篇论文的思路有意思”的感觉</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "11": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">方法图：包括架构图、算法示意图、数据构造图等</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "12": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验图：包括实验表格、柱状图、折线图、散点图、热力图、雷达图、案例可视化等</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "13": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">前两者可以通过写提示词用AI先生成草图，再按照草图复现（使用PPT或Visio等等）自己修改微调；第三个则可以用coding agent写代码生成图表。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "14": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "15": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">动机图（Teaser Figure）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "16": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">一般放在论文的开头或者Introduction中，对于Teaser Figure，通常只需要围绕两个重点展开：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "17": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">问题或观察：论文要解决的问题？or 现有方法的局限？or 典型的、代表性的、反直觉的失败案例或观察</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "18": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red text-highlight-background text-highlight-background-yellow-light-bg\" data-leaf=\"true\">本文的优势：本文方法的优势是什么？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "19": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "20": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">动手画图之前，先想清楚一句话：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "21": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">读者看完这张图，应该记住什么？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "quote_container"
+  },
+  "22": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">读者看完这张图，应该记住什么？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "23": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">如果这一句话想不清楚，图通常也画不清楚。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "24": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "25": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">基本原则：做到Self-Contain，即读者只看这幅图，不需要去翻阅论文其他内容，也能明白在讲什么。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "26": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">典型案例</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "27": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例1：现有方法 vs 本文方法</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "28": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">一边画现有方法的失败案例，另一边画本文方法如何解决，适合强调研究动机和核心insight的论文，例如：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "29": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/Qiq1bHnAjoJRjoxXYSacS308nhb/?fallback_source=1&height=1280&mount_node_token=doxcn7vaY8j1s0zsUGKx2s3RXeg&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"29\" data-record-id=\"doxcn7vaY8j1s0zsUGKx2s3RXeg\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Qiq1bHnAjoJRjoxXYSacS308nhb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2026px;\"><div class=\"image-block-container\" style=\"width: 2026px; padding-top: 36.3277%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/Qiq1bHnAjoJRjoxXYSacS308nhb/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcn7vaY8j1s0zsUGKx2s3RXeg&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"2026\" height=\"736\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "30": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/XMwSbOaD6o7akkxqTidc19henbe/?fallback_source=1&height=1280&mount_node_token=doxcnj3Cl2nABYuVGxWcHn2ViB9&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"30\" data-record-id=\"doxcnj3Cl2nABYuVGxWcHn2ViB9\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"XMwSbOaD6o7akkxqTidc19henbe\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 378px;\"><div class=\"image-block-container\" style=\"width: 378px; padding-top: 98.494%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/XMwSbOaD6o7akkxqTidc19henbe/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcnj3Cl2nABYuVGxWcHn2ViB9&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"378\" height=\"372.3072289156626\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "31": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例2：形象对比</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "32": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">这篇论文也是通过对比的方式展示本文方法相比已有方法的优势，但不是通过具体例子来对比，而是采用抽象风格的形象来展示对比，也是值得借鉴的一种方式。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "33": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/QjhJbVxbOop9rKxlbiacej7unJR/?fallback_source=1&height=1280&mount_node_token=doxcn2ZezbKgRopxJ5M8qpMsyLb&mount_point=docx_image&policy=equal&width=1280",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"33\" data-record-id=\"doxcn2ZezbKgRopxJ5M8qpMsyLb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"QjhJbVxbOop9rKxlbiacej7unJR\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 1882px;\"><div class=\"image-block-container\" style=\"width: 1882px; padding-top: 44.5271%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/v2/cover/QjhJbVxbOop9rKxlbiacej7unJR/?fallback_source=1&amp;height=1280&amp;mount_node_token=doxcn2ZezbKgRopxJ5M8qpMsyLb&amp;mount_point=docx_image&amp;policy=equal&amp;width=1280\" class=\"docx-image j-drag-cls success\" width=\"1882\" height=\"838\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "34": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例3：具体例子驱动</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "35": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">用一个任务、一个样本或者一个场景，展示出整个方法的运行效果，例如：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "36": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/ef332dd6-caee-4560-b98a-eeb35b9e4bd3",
+    "outer": "<div class=\"block docx-grid-block\" data-block-type=\"grid\" data-block-id=\"36\" data-record-id=\"doxcn5AQBJvImQA0wxmWJ9UrENd\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-block j-grid-block grid-horizontal\" style=\"border-radius: 8px;\"><div class=\"render-unit-wrapper grid-render-unit\"><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"37\" data-record-id=\"doxcnKKMoreJQvgdx5Z7mECvRDe\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(48.4991% - 7.75985px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"38\" data-record-id=\"doxcnztjkWkuKXV7T8ajChbEzrg\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"TRJ4biYePodf0nx5QShcnbhqngg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 86.3501%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/ef332dd6-caee-4560-b98a-eeb35b9e4bd3\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"630.3560830860534\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">48%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"39\" data-record-id=\"doxcnivYfb2oZOztP7nIWDXohng\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(51.5009% - 8.24015px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"40\" data-record-id=\"doxcnb5Sv5rVnuCrnAtErMlUYkR\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Hx38bN2CxoP7Q0xEfWTcKfk6nXc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 81.2689%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/f457887a-96e5-427b-ba23-dbd97a70ddda\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"593.2628398791541\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">52%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap disabled\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid"
+  },
+  "37": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/ef332dd6-caee-4560-b98a-eeb35b9e4bd3",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"37\" data-record-id=\"doxcnKKMoreJQvgdx5Z7mECvRDe\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(48.4991% - 7.75985px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"38\" data-record-id=\"doxcnztjkWkuKXV7T8ajChbEzrg\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"TRJ4biYePodf0nx5QShcnbhqngg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 86.3501%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/ef332dd6-caee-4560-b98a-eeb35b9e4bd3\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"630.3560830860534\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">48%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "38": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/ef332dd6-caee-4560-b98a-eeb35b9e4bd3",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"38\" data-record-id=\"doxcnztjkWkuKXV7T8ajChbEzrg\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"TRJ4biYePodf0nx5QShcnbhqngg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 86.3501%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/ef332dd6-caee-4560-b98a-eeb35b9e4bd3\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"630.3560830860534\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "39": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/f457887a-96e5-427b-ba23-dbd97a70ddda",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"39\" data-record-id=\"doxcnivYfb2oZOztP7nIWDXohng\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(51.5009% - 8.24015px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"40\" data-record-id=\"doxcnb5Sv5rVnuCrnAtErMlUYkR\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Hx38bN2CxoP7Q0xEfWTcKfk6nXc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 81.2689%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/f457887a-96e5-427b-ba23-dbd97a70ddda\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"593.2628398791541\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">52%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "40": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/f457887a-96e5-427b-ba23-dbd97a70ddda",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"40\" data-record-id=\"doxcnb5Sv5rVnuCrnAtErMlUYkR\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Hx38bN2CxoP7Q0xEfWTcKfk6nXc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 730px;\"><div class=\"image-block-container\" style=\"width: 730px; padding-top: 81.2689%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/f457887a-96e5-427b-ba23-dbd97a70ddda\" class=\"docx-image j-drag-cls success\" width=\"730\" height=\"593.2628398791541\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "41": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例4：方法概览</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "42": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">文章工作量概览，适合benchmark类、或者工程量比较大的工作，例如：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "43": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/68c5e336-7c67-4141-aea8-a3c2238b677f",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"43\" data-record-id=\"doxcnVTrBtwIALdKUgExYweYi7g\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Udl6bdVtLozqbgxxg3Wcds0in7n\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 1346px;\"><div class=\"image-block-container\" style=\"width: 1346px; padding-top: 47.9941%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/68c5e336-7c67-4141-aea8-a3c2238b677f\" class=\"docx-image j-drag-cls success\" width=\"1346\" height=\"646\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "44": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">方法流程图（Main Figure)</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "45": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">清晰展示论文所提出的方法，让读者能够理解整个工作流以及核心的贡献</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "callout"
+  },
+  "46": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">画图工作流：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "47": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">先用一句话写清楚这张图要表达什么，作为该图的caption</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "48": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">列出必须出现的元素以及相应的流转关系，例如输出、输出、核心模块，中间信息是怎么流转的</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "49": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">画出大致布局，是上下分层、左右对比还是原型闭环？主流程从上到下还是从左到右？核心贡献放在哪里？</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "50": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">模块化和命名</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">，把大块内容拆成清楚输入输出的模块，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">并给每个模块起一个名字</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">。模块名字应当简短凝练，与正文一致。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "51": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">统一视觉语言，确定颜色、形状、箭头、字体和图标风格。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "52": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">核心原则：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "53": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">要像写代码一样模块化流程图，即，把方法拆成若干个有清晰输入输出的模块</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "54": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">每个模块有一个清楚的命名，应当与正文术语保持一致</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "55": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">模块之间要有箭头表示明确的流动关系，比如：数据的流动、反馈信息、训练先后顺序等等，不同的含义的箭头最好用不同样式区分，例如实线箭头表示主流程，虚线表示反馈，红色表示监督信号，灰色表示辅助信息等。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "56": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">用颜色和形状辅助信息区分，同类模块使用同一种颜色，不同功能模块可以使用不同形状，颜色控制在3-5种，不使用高饱和度、高亮度的颜色。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "57": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例一： </span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-57-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://arxiv.org/pdf/2601.12538\" data-href=\"https%3A%2F%2Farxiv.org%2Fpdf%2F2601.12538\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">Agentic Reasoning for Large Language Models  </span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Survey）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "58": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">每一个章节对应一个模块，每个模块采用不同的颜色，每个框都有一个名字和对应的章节名</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "59": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/af6e1a94-9d6d-41e8-a02a-99deeb1f9fd3",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"59\" data-record-id=\"doxcnaiuxU2VNs3ztpQ5sNLM9ye\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Nhnsb7niEoDAiKxpmQacX5HpnNd\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 574px;\"><div class=\"image-block-container\" style=\"width: 574px; padding-top: 81.9767%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/af6e1a94-9d6d-41e8-a02a-99deeb1f9fd3\" class=\"docx-image j-drag-cls success\" width=\"574\" height=\"470.546511627907\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "60": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例二： </span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-60-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://arxiv.org/pdf/2601.12538\" data-href=\"https%3A%2F%2Farxiv.org%2Fpdf%2F2601.12538\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">Agentic Reasoning for Large Language Models  </span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Method）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "61": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">采用低饱和度的色块区分不同模块，每一个模块有各自的名字，不同功能的模块采用不一样的框和箭头（实线和虚线、不同颜色等），采用一些卡通元素丰富插图的内容</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "62": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/81b801c7-bcc2-4619-8f92-a77258b4f556",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"62\" data-record-id=\"doxcn77XIZHyQCDMSNSzk279B9b\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"TkAPbBndgofEBIxPd0VcSFnDnHg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 604px;\"><div class=\"image-block-container\" style=\"width: 604px; padding-top: 59.8981%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/81b801c7-bcc2-4619-8f92-a77258b4f556\" class=\"docx-image j-drag-cls success\" width=\"604\" height=\"361.78457059679766\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "63": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例三：</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-63-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://arxiv.org/abs/2410.06467\" data-href=\"https%3A%2F%2Farxiv.org%2Fabs%2F2410.06467\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">WAPITI: A Watermark for Finetuned Open-Source LLMs</span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Method）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "64": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">同样是低饱和、模块化布局，每个模块有名字，并且清晰的对比了本文方法（WAPITI Watermarking）相比已有方法(Direct Watermarking）的优势。这幅图比较有特点的是，在上方加了legend，表明不同的框、箭头、颜色的功能，让读者更容易看懂。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "65": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/31eaaefc-da4a-46e7-b83e-9d747f0d4989",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"65\" data-record-id=\"doxcno0BkQG6SmeZwJasNmtzmke\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"LvLJbBotYobc4xxLGVXcFl3rnDd\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2048px;\"><div class=\"image-block-container\" style=\"width: 2048px; padding-top: 32.666%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/31eaaefc-da4a-46e7-b83e-9d747f0d4989\" class=\"docx-image j-drag-cls success\" width=\"2048\" height=\"669\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "66": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例四：</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-66-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://arxiv.org/abs/2502.08942\" data-href=\"https%3A%2F%2Farxiv.org%2Fabs%2F2502.08942\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">Language in the Flow of Time: Time-Series-Paired Texts Weaved into a Unified Temporal Narrative</span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Method）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "67": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">下图也是，通过不同的线表示不同的模块。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "68": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">左侧虚线框表示输入，在虚线框内，上半部分表示时序模态，用绿色表示，下半部分表示文本模态，用另一种颜色表示。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "69": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">右侧两个框，上下对比，红色表示既有方法，绿色表示本文方法，形成一个直观的对比，并且通过在右下角加上文字说明，直接体现本文方法的优势，又能让图右下角不那么空。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "70": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/62a2b657-93be-4adc-875d-ace38ab63351",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"70\" data-record-id=\"doxcnhr4kHWdXKkKp0wQjq1s7md\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"T08sbyi4noDp0VxSbVtcLot0nwc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2048px;\"><div class=\"image-block-container\" style=\"width: 2048px; padding-top: 36.8164%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/62a2b657-93be-4adc-875d-ace38ab63351\" class=\"docx-image j-drag-cls success\" width=\"2048\" height=\"754\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "71": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "72": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例五：</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-72-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://virl-platform.github.io/static/V-IRL.pdf\" data-href=\"https%3A%2F%2Fvirl-platform.github.io%2Fstatic%2FV-IRL.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">V-IRL: Grounding Virtual Intelligence in Real Life</span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Method）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "73": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">这篇论文整体的配图和书写都非常漂亮，很值得参考。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "74": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/a5373929-0c1f-4bb3-b1e7-455da03a371f",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"74\" data-record-id=\"doxcn6KlfyoTwRweCz6fCp3hNof\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"XZZ3bJBe7ofgYpxeG7Wc5V9onIb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 1448px;\"><div class=\"image-block-container\" style=\"width: 1448px; padding-top: 39.6409%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/a5373929-0c1f-4bb3-b1e7-455da03a371f\" class=\"docx-image j-drag-cls success\" width=\"1448\" height=\"574\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "75": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例六：</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-75-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://proceedings.neurips.cc/paper_files/paper/2024/file/62ab1c2cb4b03e717005479efb211841-Paper-Conference.pdf\" data-href=\"https%3A%2F%2Fproceedings.neurips.cc%2Fpaper_files%2Fpaper%2F2024%2Ffile%2F62ab1c2cb4b03e717005479efb211841-Paper-Conference.pdf\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">Unlocking the Capabilities of Thought: A Reasoning Boundary Framework to Quantify and Optimize Chain-of-Thought</span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Method）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "76": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">通过插入各种小元素，丰富插图的内容和美观程度</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "77": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/d0d81973-704d-4fb8-9024-43240fa7bc97",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"77\" data-record-id=\"doxcnOSZfEoJ2BFnYBrATiFfYNd\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"S9LVbyDVsoCQKrxkRZXcq6Mjn0c\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 820px;\"><div class=\"image-block-container\" style=\"width: 820px; padding-top: 44.5391%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/d0d81973-704d-4fb8-9024-43240fa7bc97\" class=\"docx-image j-drag-cls success\" width=\"820\" height=\"388.2025316455696\" style=\"max-width: 100%; max-height: 106.293%; transform-origin: 50% 52.96%; transform: translate(0%, -5.92%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "78": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例七：</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-78-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://arxiv.org/pdf/2601.03515\" data-href=\"https%3A%2F%2Farxiv.org%2Fpdf%2F2601.03515\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">Mem-Gallery: Benchmarking Multimodal Long-Term Conversational Memory for MLLM Agents</span></a></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">（Benchmark）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "79": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">Benchmark一般需要根据benchmark的工作量和特点，比如数据构建、评估指标、评测模型、findings等方面来设计模块，例如：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "80": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/1a59736b-0f6d-4616-a80c-ab76050725c1",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"80\" data-record-id=\"doxcntdwcbpFe5QfJMhY7bS3rgc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"K3Hkb1bolobhkExohSQc7n8QnEH\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2104px;\"><div class=\"image-block-container\" style=\"width: 2104px; padding-top: 55.6084%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/1a59736b-0f6d-4616-a80c-ab76050725c1\" class=\"docx-image j-drag-cls success\" width=\"2104\" height=\"1170\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "81": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">结果图表（Results）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "82": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">相关工作对比图表（Related Works）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "83": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">一般适用于benchmark类文章，适合与已有相关工作进行对比，整理出相应的维度，表明本文考虑了更多、更全面的setting。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "84": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例一：设定相应的维度，通过不同颜色的符号，表明不同的论文具有不同的特点</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading4"
+  },
+  "85": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/1951210c-2be7-4fb9-85e9-a87345aeedef",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"85\" data-record-id=\"doxcnAE6qoJXhksOvocuwzFMjDe\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"PVg8bpoGuoJGxAxLlblcqFRGnZc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2322px;\"><div class=\"image-block-container\" style=\"width: 2322px; padding-top: 36.0034%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/1951210c-2be7-4fb9-85e9-a87345aeedef\" class=\"docx-image j-drag-cls success\" width=\"2322\" height=\"836\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "86": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例二：这篇文章不是通过符号来对比，而是直接用文字说明在数据集Size、模态等维度的对比，并且通过一个很漂亮的图展示了该benchmark在Depth和Bredth上都处于最优</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading4"
+  },
+  "87": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/2b423819-fff1-406b-8f99-ee55072214b0",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"87\" data-record-id=\"doxcn2mQ8rhXtWd6wn8EjKFu5mc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"QUCJbXupiovaKWxKpPucTGwmnxd\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 1536px;\"><div class=\"image-block-container\" style=\"width: 1536px; padding-top: 42.3177%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/2b423819-fff1-406b-8f99-ee55072214b0\" class=\"docx-image j-drag-cls success\" width=\"1536\" height=\"650\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "88": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">主结果（Main Results）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "89": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">主结果通常适合用表格，因为表格能承载多 benchmark、多模型、多指标的精确对比。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "90": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">主结果表的设计重点是：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "91": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">让读者最快找到本文方法，并看到它超过了哪些 baseline。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "quote_container"
+  },
+  "92": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">建议：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "93": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\"> 用 bold 标出最优结果； </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "94": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\"> 用 underline 标出次优结果； </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "95": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\"> 相同 backbone 或相同设置放在同一个 block； </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "96": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\"> 不同 benchmark / metric 用清楚的列分组； </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "97": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\"> caption 直接说明主要结论。 </span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "98": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">一个表不要太空，比如有的表格列间距、行间距非常大，给人感觉内容不充实，如果太空的话，可以通过调整布局，或者增加实验方差等内容，丰富表格信息。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "99": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例一：用底色标出本文方法性能，数字下面两条线表示第一名，一条线表示第二名，仅加粗表示第三名</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "100": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/14dc9eba-519e-41af-b6b8-fd41871989b6",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"100\" data-record-id=\"doxcnEUrgoKOBXHwgvSRHOsSrTe\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"StqYbmVzOoiJiuxhyvicbXPAn6f\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2364px;\"><div class=\"image-block-container\" style=\"width: 2364px; padding-top: 44.5854%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/14dc9eba-519e-41af-b6b8-fd41871989b6\" class=\"docx-image j-drag-cls success\" width=\"2364\" height=\"1054\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "101": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例二：用颜色深浅和加粗/横线区分性能，同时引入了金牌/银牌两个logo，最后一列通过红色/绿色表明性能增减</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "102": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/7558b181-5799-41f6-9644-abe99308c3db",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"102\" data-record-id=\"doxcnZePpcvQgsSGntqNyg3ZriM\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"RkNgbVpM7oKPkbxtZGicpIgQnYg\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2178px;\"><div class=\"image-block-container\" style=\"width: 2178px; padding-top: 63.1772%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/7558b181-5799-41f6-9644-abe99308c3db\" class=\"docx-image j-drag-cls success\" width=\"2178\" height=\"1376\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "103": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例三：通过插入不同的logo表示不同算法的特点，增加表格内容的丰富程度和美观度</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "104": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/75dec3ff-b788-4991-8d41-6555bab28ae2",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"104\" data-record-id=\"doxcnNnIBwY9k5h7SaFFsEptLhB\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"T0Z1bQQRhoGWzExEE5PcqxQJnce\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2452px;\"><div class=\"image-block-container\" style=\"width: 2452px; padding-top: 33.4421%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/75dec3ff-b788-4991-8d41-6555bab28ae2\" class=\"docx-image j-drag-cls success\" width=\"2452\" height=\"820\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "105": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">各类曲线（More Analysis）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "106": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">通过曲线展示随着某个指标的变化，不同方法的性能变化，是除了表格之外最常用的实验结果图</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "107": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/ec757faf-a311-493a-8abd-6572291093a2",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"107\" data-record-id=\"doxcnn3Rd1ddF3Le5nZxkT0cvSc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"JEKHbCzxroam1exdNxochsFrnRd\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 1728px;\"><div class=\"image-block-container\" style=\"width: 1728px; padding-top: 56.3657%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/ec757faf-a311-493a-8abd-6572291093a2\" class=\"docx-image j-drag-cls success\" width=\"1728\" height=\"974\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "108": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例一：可以在曲线上增加logo、性能增减的描述等等，让结果更直观</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "109": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/337db943-1494-42dc-8b35-7a36fd282ae7",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"109\" data-record-id=\"doxcnIiwG6jXM2iUV5d5ZkcPqIb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"GgzdbFrHFozFDXxeSJWcWBjGnhf\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2512px;\"><div class=\"image-block-container\" style=\"width: 2512px; padding-top: 32.8822%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/337db943-1494-42dc-8b35-7a36fd282ae7\" class=\"docx-image j-drag-cls success\" width=\"2512\" height=\"826\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "110": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">案例二：通过曲线后面的底色，表示算法的方差</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "111": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/bfb5a1ad-e945-431f-967c-9ad365a3185e",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"111\" data-record-id=\"doxcnIxqri76Ojq25SeHQvS9Mrh\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"YKIGbczTioXLF2xLVkOchYEynIe\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 1700px;\"><div class=\"image-block-container\" style=\"width: 1700px; padding-top: 33.8824%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/bfb5a1ad-e945-431f-967c-9ad365a3185e\" class=\"docx-image j-drag-cls success\" width=\"1700\" height=\"576\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "112": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Some Tips:</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "113": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">论文配色与色调工具</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "114": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">无论是论文插图还是实验曲线，配色要“简约大气，勿晃眼睛”，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">拒绝高饱和</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">，科研图表最忌讳直接使用高饱和度的红绿蓝三原色，以下工具能帮你一键获取高高级、符合学术审美的调色盘。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "115": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">基于PPT默认的色盘做一些调整，例如下面这幅图就是基于PPT的色盘配置</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "116": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/6c06921d-fbe1-430f-98ed-f62e4b88b172",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"116\" data-record-id=\"doxcnVhzK512SZCPE0PtRcq7E8e\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"EgGtbBZMUotCOWxvL9gcsczunwc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 2178px;\"><div class=\"image-block-container\" style=\"width: 2178px; padding-top: 26.3545%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/6c06921d-fbe1-430f-98ed-f62e4b88b172\" class=\"docx-image j-drag-cls success\" width=\"2178\" height=\"574\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "117": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">ColorKit (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-117-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://colorkit.co/palettes/\" data-href=\"https%3A%2F%2Fcolorkit.co%2Fpalettes%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://colorkit.co/palettes/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：指南推荐的配色站，支持生成渐变色、提取图片颜色，能直观预览调色盘在图表中的实际效果。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "118": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">ColorBrewer 2.0 (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-118-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://colorbrewer2.org/\" data-href=\"https%3A%2F%2Fcolorbrewer2.org%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://colorbrewer2.org/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：经典的科学可视化配色标准，专门为地图和图表设计，支持选定“色盲友好（Colorblind safe）”和“黑白打印友好（Print friendly）”的配色方案，非常适合趋势图和柱状图。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "119": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">SciVisColor (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-119-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://sciviscolor.org/\" data-href=\"https%3A%2F%2Fsciviscolor.org%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://sciviscolor.org/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：由美国国家科学基金会等支持开发的网站，专门针对科学数据可视化设计，提供极其专业的发散型和连续型调色盘。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "120": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Adobe Color (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-120-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://color.adobe.com/\" data-href=\"https%3A%2F%2Fcolor.adobe.com%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://color.adobe.com/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：通过色彩类比、互补等规则自制调色盘，也可以在“探索”模块搜索“Scientific”、“Academic”直接复用全球设计师分享的学术感配色。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "121": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16",
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">在小红书、抖音、微信公众号等平台搜索“科研论文配色”相关的帖子，例如：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "122": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/7b70ea61-a6f0-4040-b13d-7bea0966e24e",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"122\" data-record-id=\"doxcnWR9JVfppc4o37FLYMC9sbc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"OdwQb1yAWo1CASxsL0BcWAwMnqb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 556px;\"><div class=\"image-block-container\" style=\"width: 556px; padding-top: 68.7825%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/7b70ea61-a6f0-4040-b13d-7bea0966e24e\" class=\"docx-image j-drag-cls success\" width=\"556\" height=\"417\" style=\"max-width: 100%; max-height: 109.039%; transform-origin: 50% 45.855%; transform: translate(0%, 0%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "123": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">借助阴影、形状变化增加图片立体感</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "124": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">通过增加阴影、不同形状（实线、虚线）的线条，增加图像的立体感，例如下面两个例子：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "125": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/1c2dbbfc-791b-49d5-9981-bdc345d92ae1",
+    "outer": "<div class=\"block docx-grid-block\" data-block-type=\"grid\" data-block-id=\"125\" data-record-id=\"doxcnHyB6lfMd1h8XwGRyCzbAWf\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-block j-grid-block grid-horizontal\" style=\"border-radius: 8px;\"><div class=\"render-unit-wrapper grid-render-unit\"><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"156\" data-record-id=\"doxcnl7i0Ik1gFRf4xfd59Nt61g\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(50.4907% - 8.07851px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"157\" data-record-id=\"doxcnOE55eYL3s7tHLOUPw3ZIN1\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"OjaTbfiGboOK2Pxwqvvcw3jknbb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 301px;\"><div class=\"image-block-container\" style=\"width: 301px; padding-top: 76.4479%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/1c2dbbfc-791b-49d5-9981-bdc345d92ae1\" class=\"docx-image j-drag-cls success\" width=\"301\" height=\"230.1081081081081\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"158\" data-record-id=\"doxcnLkHGVe9kCVOpt17oP0Azzc\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(49.5093% - 7.92149px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"159\" data-record-id=\"doxcnVluzV4I171Fs0XN6XpviSb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Q4M8bjKRuo5QezxMRq4c3QOZnrc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 312px;\"><div class=\"image-block-container\" style=\"width: 312px; padding-top: 77.9783%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/f63ca7b9-65e3-408f-867d-3db5aec6dfb8\" class=\"docx-image j-drag-cls success\" width=\"312\" height=\"243.29241877256317\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap disabled\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid"
+  },
+  "126": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/c869ae63-4072-49ce-9bc2-624d81a0f4fe",
+    "outer": "<div class=\"block docx-grid-block\" data-block-type=\"grid\" data-block-id=\"126\" data-record-id=\"doxcnkHktZEEP7g2hVkKR6ct2Ef\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-block j-grid-block grid-horizontal\" style=\"border-radius: 8px;\"><div class=\"render-unit-wrapper grid-render-unit\"><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"160\" data-record-id=\"doxcnrV1YSJnsVpvY6E8JxtOOCd\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(52.5069% - 8.40111px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"161\" data-record-id=\"doxcnWpcMQM08KbMhY2qRvDHLnc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"AmnNbElezovFn0xaCTGcLqYbnkY\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 198px;\"><div class=\"image-block-container\" style=\"width: 198px; padding-top: 102.041%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/c869ae63-4072-49ce-9bc2-624d81a0f4fe\" class=\"docx-image j-drag-cls success\" width=\"198\" height=\"202.0408163265306\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">53%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"162\" data-record-id=\"doxcnSEn7M5FkJpEXncD5unQMLh\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(47.4931% - 7.59889px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"163\" data-record-id=\"doxcn3ZsHxqMPE8mSCisOSF5Q5c\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"QVNkby54LogJjTxSQeEccgyfnZe\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 236px;\"><div class=\"image-block-container\" style=\"width: 236px; padding-top: 112.925%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/2966c3c6-5b35-4fd5-ae47-2040b1db232c\" class=\"docx-image j-drag-cls success\" width=\"236\" height=\"266.5034013605442\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">47%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap disabled\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid"
+  },
+  "127": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">矢量图标与素材库（适用于概览图/流程图）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "128": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">概览图和流程图需要大量的概念性图标（如服务器、大脑、数据流、对比符号），使用统一风格的矢量图标（SVG/EPS）是保证“字体统一，风格一致”的关键</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "129": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Flaticon (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-129-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://www.flaticon.com/\" data-href=\"https%3A%2F%2Fwww.flaticon.com%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://www.flaticon.com/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：全球最大的免费矢量图标库。画概览图时，建议直接在里面搜索“Icon Pack”（图标包），确保整张图中的设备、用户、箭头等元素属于同一种设计风格（如皆为线条风或皆为扁平风），避免画面杂乱</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "130": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">iconfont-阿里巴巴矢量图标库 (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-130-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://www.iconfont.cn/\" data-href=\"https%3A%2F%2Fwww.iconfont.cn%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://www.iconfont.cn/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：国内最强大的图标库，中文搜索极度友好。拥有海量由设计师打包好的开源图标库，支持免登录下载SVG/PNG</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "131": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">The Noun Project (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-131-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://thenounproject.com/\" data-href=\"https%3A%2F%2Fthenounproject.com%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://thenounproject.com/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：主打极致简约、高度概括的黑白符号图标。如果你的论文概览图追求高级的极简风，这里的素材是绝佳选择</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "132": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">BioRender (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-132-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://biorender.com/\" data-href=\"https%3A%2F%2Fbiorender.com%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://biorender.com/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">： 拥有海量专业的细胞、分子、实验设备矢量素材，支持拖拽拼装，堪称生物医学界的“PPT”</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "133": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">专业流程图与架构绘图工具</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "134": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">绘制“方法流程图”时，你需要强大的对齐、吸附和连线功能，确保箭头没有交叉、方向统一</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "135": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Draw.io / </span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" link-wrapper link-text-color link-start link-end link-id-135-0-1 author-7076000738450669572\" auto-url-line=\"0\" auto-url-start=\"10\" auto-url-length=\"12\" auto-url=\"http%3A%2F%2FDiagrams.net\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"http://Diagrams.net\" data-href=\"http%3A%2F%2FDiagrams.net\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">Diagrams.net</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\"> (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-135-0-3\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://app.diagrams.net/\" data-href=\"https%3A%2F%2Fapp.diagrams.net%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://app.diagrams.net/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：完全免费且开源的强力绘图工具。拥有极其丰富的网络、云架构、通用流程图组件。支持网页版和桌面端，可直接导出为不失真、可二次编辑的 SVG 或 PDF 格式，是替代 Visio 的绝佳选择。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "136": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">ProcessOn (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-136-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://www.processon.com/\" data-href=\"https%3A%2F%2Fwww.processon.com%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://www.processon.com/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：国内主流的在线作图工具，上手极快。其“模板中心”有大量学者分享的现成科研流程图、系统架构图，可直接克隆修改。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "137": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Lucidchart (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-137-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://www.lucidchart.com/\" data-href=\"https%3A%2F%2Fwww.lucidchart.com%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://www.lucidchart.com/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：功能极度丝滑的团队协作绘图软件，其连线的智能避让和排版对齐功能非常强大，适合处理复杂的系统多模块交互图。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "138": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">实验数据图表代码与可视化库（适用于实验图表）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "139": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">趋势图、柱状图等可以用 coding agent 写代码生成，给 Agent 发送指令时，指定以下业界标杆库，能让生成的图表自带高级感。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "140": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Python - Seaborn &amp; Matplotlib</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：科研界的老牌标杆。Seaborn 在 Matplotlib 的基础上进行了高级封装，自带多套极具学术感的学术主题主题（如 </span><span class=\" author-7076000738450669572\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">whitegrid</span></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">），其默认配色比 Matplotlib 更现代。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "141": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">Python - ProPlot (</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span style=\"font-weight:bold;\" class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-141-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://proplot.readthedocs.io/\" data-href=\"https%3A%2F%2Fproplot.readthedocs.io%2F\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">https://proplot.readthedocs.io/</span></a></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：专门为发表高质量学术论文设计的 Matplotlib 包装库。它极大地简化了多子图（Subplots）的排版对齐、标签共享以及学术配色的调用。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "142": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">善用 AI 绘图与草图生成（适用于概览图创意）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "143": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">方法流程图之类可以通过 AI 先生成创意草图，再手动复现修改。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "144": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">GPT-Image-2 / Midjourney / DALL-E 3</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：在生成方法概览图（Teaser Figure）的草图时，可使用提示词定义结构（例如：</span><span class=\" author-7076000738450669572\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">\"A structured, 3-part scientific diagram from left to right, clean background, pastel color palette, vector style...\"</span></span></span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">）来获取排版和视觉引导的灵感。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "145": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">更多内容可以阅读</span><span class=\"outer-u-container docx-outer-link-container\" data-inline-wrapper=\"true\"><span class=\" author-7076000738450669572 link-wrapper link-text-color link-start link-end link-id-145-0-1\" data-leaf=\"true\"><a style=\"cursor:pointer;text-decoration-skip:none;\" class=\"link contextmenu-without-copyperm\" href=\"https://github.com/datawhalechina/paper-chart-tutorial\" data-href=\"https%3A%2F%2Fgithub.com%2Fdatawhalechina%2Fpaper-chart-tutorial\" rel=\"noopener noreferrer\" target=\"_blank\" data-link-node=\"true\"><span data-string=\"true\">《科研论文配图绘制指南》</span></a></span></span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "146": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">💡 编写小贴士：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "147": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">素材使用铁律：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "quote_container"
+  },
+  "148": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "149": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">清晰展示论文所提出的方法，让读者能够理解整个工作流以及核心的贡献</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "150": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-blue-text textHighlight-ccmtoken-doc-textcolor-blue\" data-leaf=\"true\">让读者最快找到本文方法，并看到它超过了哪些 baseline。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "151": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16",
+    "outer": "<div class=\"block docx-grid-block\" data-block-type=\"grid\" data-block-id=\"151\" data-record-id=\"doxcnX4HYLM928QX7eYhhGrXk9d\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-block j-grid-block grid-horizontal\" style=\"border-radius: 8px;\"><div class=\"render-unit-wrapper grid-render-unit\"><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"152\" data-record-id=\"doxcnUMeRQh9ORlsuwRn9o6RMyz\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(50.0486% - 10.0097px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"153\" data-record-id=\"doxcncXUw4JFU617uGXIFdWNree\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"BSUBbCtlAorFQKxZbw0cIK2Fnff\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 338px;\"><div class=\"image-block-container\" style=\"width: 338px; padding-top: 132.774%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"338\" height=\"734.8557213930349\" style=\"max-width: 100%; max-height: 163.746%; transform-origin: 50% 45.285%; transform: translate(0%, -14.75%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div><div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"154\" data-record-id=\"doxcnMtKSv3mFzEtpsVloL1zNNg\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(49.9514% - 9.99028px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"155\" data-record-id=\"doxcnbUNone3csLMhDDiKb33ZTb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Em61bJeFgolOf6xt8yucSdRsnEb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 343px;\"><div class=\"image-block-container\" style=\"width: 343px; padding-top: 133.035%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/Em61bJeFgolOf6xt8yucSdRsnEb/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"343\" height=\"745.726368159204\" style=\"max-width: 100%; max-height: 163.425%; transform-origin: 50% 45.345%; transform: translate(0%, -14.75%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div><div class=\"column-gap j-column-gap disabled\"><div contenteditable=\"false\" class=\"column-gap-inner\"></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid"
+  },
+  "152": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"152\" data-record-id=\"doxcnUMeRQh9ORlsuwRn9o6RMyz\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(50.0486% - 10.0097px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"153\" data-record-id=\"doxcncXUw4JFU617uGXIFdWNree\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"BSUBbCtlAorFQKxZbw0cIK2Fnff\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 338px;\"><div class=\"image-block-container\" style=\"width: 338px; padding-top: 132.774%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"338\" height=\"734.8557213930349\" style=\"max-width: 100%; max-height: 163.746%; transform-origin: 50% 45.285%; transform: translate(0%, -14.75%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "153": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"153\" data-record-id=\"doxcncXUw4JFU617uGXIFdWNree\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"BSUBbCtlAorFQKxZbw0cIK2Fnff\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 338px;\"><div class=\"image-block-container\" style=\"width: 338px; padding-top: 132.774%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/BSUBbCtlAorFQKxZbw0cIK2Fnff/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"338\" height=\"734.8557213930349\" style=\"max-width: 100%; max-height: 163.746%; transform-origin: 50% 45.285%; transform: translate(0%, -14.75%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "154": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/Em61bJeFgolOf6xt8yucSdRsnEb/?preview_type=16",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"154\" data-record-id=\"doxcnMtKSv3mFzEtpsVloL1zNNg\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(49.9514% - 9.99028px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"155\" data-record-id=\"doxcnbUNone3csLMhDDiKb33ZTb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Em61bJeFgolOf6xt8yucSdRsnEb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 343px;\"><div class=\"image-block-container\" style=\"width: 343px; padding-top: 133.035%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/Em61bJeFgolOf6xt8yucSdRsnEb/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"343\" height=\"745.726368159204\" style=\"max-width: 100%; max-height: 163.425%; transform-origin: 50% 45.345%; transform: translate(0%, -14.75%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "155": {
+   "payload": {
+    "imgSrc": "https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/Em61bJeFgolOf6xt8yucSdRsnEb/?preview_type=16",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"155\" data-record-id=\"doxcnbUNone3csLMhDDiKb33ZTb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Em61bJeFgolOf6xt8yucSdRsnEb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 343px;\"><div class=\"image-block-container\" style=\"width: 343px; padding-top: 133.035%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img crop-container\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"https://internal-api-drive-stream.feishu.cn/space/api/box/stream/download/preview/Em61bJeFgolOf6xt8yucSdRsnEb/?preview_type=16\" class=\"docx-image j-drag-cls success\" width=\"343\" height=\"745.726368159204\" style=\"max-width: 100%; max-height: 163.425%; transform-origin: 50% 45.345%; transform: translate(0%, -14.75%);\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "156": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/1c2dbbfc-791b-49d5-9981-bdc345d92ae1",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"156\" data-record-id=\"doxcnl7i0Ik1gFRf4xfd59Nt61g\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(50.4907% - 8.07851px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"157\" data-record-id=\"doxcnOE55eYL3s7tHLOUPw3ZIN1\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"OjaTbfiGboOK2Pxwqvvcw3jknbb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 301px;\"><div class=\"image-block-container\" style=\"width: 301px; padding-top: 76.4479%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/1c2dbbfc-791b-49d5-9981-bdc345d92ae1\" class=\"docx-image j-drag-cls success\" width=\"301\" height=\"230.1081081081081\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "157": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/1c2dbbfc-791b-49d5-9981-bdc345d92ae1",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"157\" data-record-id=\"doxcnOE55eYL3s7tHLOUPw3ZIN1\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"OjaTbfiGboOK2Pxwqvvcw3jknbb\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 301px;\"><div class=\"image-block-container\" style=\"width: 301px; padding-top: 76.4479%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/1c2dbbfc-791b-49d5-9981-bdc345d92ae1\" class=\"docx-image j-drag-cls success\" width=\"301\" height=\"230.1081081081081\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "158": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/f63ca7b9-65e3-408f-867d-3db5aec6dfb8",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"158\" data-record-id=\"doxcnLkHGVe9kCVOpt17oP0Azzc\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(49.5093% - 7.92149px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"159\" data-record-id=\"doxcnVluzV4I171Fs0XN6XpviSb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Q4M8bjKRuo5QezxMRq4c3QOZnrc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 312px;\"><div class=\"image-block-container\" style=\"width: 312px; padding-top: 77.9783%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/f63ca7b9-65e3-408f-867d-3db5aec6dfb8\" class=\"docx-image j-drag-cls success\" width=\"312\" height=\"243.29241877256317\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">50%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "159": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/f63ca7b9-65e3-408f-867d-3db5aec6dfb8",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"159\" data-record-id=\"doxcnVluzV4I171Fs0XN6XpviSb\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"Q4M8bjKRuo5QezxMRq4c3QOZnrc\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 312px;\"><div class=\"image-block-container\" style=\"width: 312px; padding-top: 77.9783%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/f63ca7b9-65e3-408f-867d-3db5aec6dfb8\" class=\"docx-image j-drag-cls success\" width=\"312\" height=\"243.29241877256317\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "160": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/c869ae63-4072-49ce-9bc2-624d81a0f4fe",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"160\" data-record-id=\"doxcnrV1YSJnsVpvY6E8JxtOOCd\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(52.5069% - 8.40111px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"161\" data-record-id=\"doxcnWpcMQM08KbMhY2qRvDHLnc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"AmnNbElezovFn0xaCTGcLqYbnkY\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 198px;\"><div class=\"image-block-container\" style=\"width: 198px; padding-top: 102.041%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/c869ae63-4072-49ce-9bc2-624d81a0f4fe\" class=\"docx-image j-drag-cls success\" width=\"198\" height=\"202.0408163265306\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">53%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "161": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/c869ae63-4072-49ce-9bc2-624d81a0f4fe",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"161\" data-record-id=\"doxcnWpcMQM08KbMhY2qRvDHLnc\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-left\" contenteditable=\"false\" image-token=\"AmnNbElezovFn0xaCTGcLqYbnkY\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 198px;\"><div class=\"image-block-container\" style=\"width: 198px; padding-top: 102.041%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/c869ae63-4072-49ce-9bc2-624d81a0f4fe\" class=\"docx-image j-drag-cls success\" width=\"198\" height=\"202.0408163265306\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "162": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/2966c3c6-5b35-4fd5-ae47-2040b1db232c",
+    "outer": "<div class=\"block docx-grid_column-block\" data-block-type=\"grid_column\" data-block-id=\"162\" data-record-id=\"doxcnSEn7M5FkJpEXncD5unQMLh\" style=\"flex-grow: 0; flex-shrink: 0; width: calc(47.4931% - 7.59889px);\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"grid-column-block\"><div class=\"render-unit-wrapper\"><div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"163\" data-record-id=\"doxcn3ZsHxqMPE8mSCisOSF5Q5c\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"QVNkby54LogJjTxSQeEccgyfnZe\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 236px;\"><div class=\"image-block-container\" style=\"width: 236px; padding-top: 112.925%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/2966c3c6-5b35-4fd5-ae47-2040b1db232c\" class=\"docx-image j-drag-cls success\" width=\"236\" height=\"266.5034013605442\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div></div><span class=\"grid-column-percent\">47%</span></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "grid_column"
+  },
+  "163": {
+   "payload": {
+    "imgSrc": "blob:https://dy8q0bnq8y.feishu.cn/2966c3c6-5b35-4fd5-ae47-2040b1db232c",
+    "outer": "<div class=\"block docx-image-block\" data-block-type=\"image\" data-block-id=\"163\" data-record-id=\"doxcn3ZsHxqMPE8mSCisOSF5Q5c\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment image-block-comment   local-comment-all-third-party  \"><div contenteditable=\"false\"><div class=\"image-block align-center\" contenteditable=\"false\" image-token=\"QVNkby54LogJjTxSQeEccgyfnZe\" data-need-render-loading=\"false\"><div class=\"image-block-width-wrapper flash-block-content\" data-printable=\"1\" data-exportable=\"1\" data-copyable=\"1\" style=\"width: 236px;\"><div class=\"image-block-container\" style=\"width: 236px; padding-top: 112.925%;\"><div class=\"resizable-wrapper\" contenteditable=\"false\"><div class=\"img\"><img alt=\"飞书文档 - 图片\" draggable=\"false\" crossorigin=\"use-credentials\" src=\"blob:https://dy8q0bnq8y.feishu.cn/2966c3c6-5b35-4fd5-ae47-2040b1db232c\" class=\"docx-image j-drag-cls success\" width=\"236\" height=\"266.5034013605442\"><div class=\"image-area-container\" style=\"width: 100%; height: 100%; left: 0%; top: 0%; overflow: visible;\"></div></div></div></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "image"
+  },
+  "164": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">素材使用铁律：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "165": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">格式首选矢量</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：从上述网站下载素材时，</span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">务必优先选择 </span><span style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">.svg</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">、</span><span style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">.eps</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\"> 或 </span><span style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">.pdf</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\"> 格式</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">。只有矢量图在无限放大、或者缩小到论文实际双栏尺寸时，才能保证文字和线条绝对清晰、不掉字。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "166": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">版权合规</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">：商业或开源图标库在免费使用时，注意查看其开源协议（如 CC BY 3.0 需在文章致谢或 Caption 中注明出处，或选择完全开源的 CC0 资源），避免版权争议。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  }
+ }
+}

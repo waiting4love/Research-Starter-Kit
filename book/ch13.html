@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>如何写论文：Methods · 科研入门指南</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-init">
+<div id="progress-bar"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar"><div class="sidebar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">研</span><span class="brand-text">科研入门指南</span></a>
+    <div class="search-wrap"><input id="search-input" type="search" placeholder="搜索全书…  ( / )"><div id="search-results"></div></div>
+    <nav class="nav"><div class="nav-group"><div class="nav-group-title">第一部分 · 如何做科研</div><a class="nav-link" href="ch01.html">如何做科研？</a><a class="nav-link" href="ch02.html">如何找论文？</a><a class="nav-link" href="ch03.html">如何读论文？</a><a class="nav-link" href="ch04.html">如何想 Idea？</a><a class="nav-link" href="ch05.html">如何进行学术汇报</a><a class="nav-link" href="ch06.html">如何高效 Meeting</a><a class="nav-link" href="ch07.html">一些好的习惯</a></div><div class="nav-group"><div class="nav-group-title">第二部分 · 如何写论文</div><a class="nav-link" href="ch08.html">如何写论文？</a><a class="nav-link" href="ch09.html">论文画图指南</a><a class="nav-link" href="ch10.html">如何写论文：Abstract</a><a class="nav-link" href="ch11.html">如何写论文：Introduction</a><a class="nav-link" href="ch12.html">如何写论文：Related Works</a><a class="nav-link active" href="ch13.html">如何写论文：Methods</a><a class="nav-link" href="ch14.html">如何写论文：Experiments</a><a class="nav-link" href="ch15.html">如何写论文：Reference</a><a class="nav-link" href="ch16.html">如何 Rebuttal</a></div><div class="nav-group"><div class="nav-group-title">第三部分 · 杂项</div><a class="nav-link" href="ch17.html">学术会议参会指南</a><a class="nav-link" href="ch18.html">有哪些能申请的奖学金？</a><a class="nav-link" href="ch19.html">AI 辅助科研的一些 Tips</a></div><div class="nav-group page-toc"><div class="nav-group-title">本页目录</div><a class="nav-link toc-2" href="#sec-1">推荐采用“总分结构”</a><a class="nav-link toc-2" href="#sec-2">先写 Overview</a><a class="nav-link toc-2" href="#sec-3">单独写 Problem Formulation</a><a class="nav-link toc-2" href="#sec-4">所有公式都要被解释</a><a class="nav-link toc-2" href="#sec-5">按模块展开 Method Details</a><a class="nav-link toc-2" href="#sec-6">算法可以用伪代码辅助说明</a><a class="nav-link toc-2" href="#sec-7">写清楚本文的 novelty</a></div></nav>
+    <div class="sidebar-foot">
+      <button id="theme-toggle" title="切换深浅色">🌙 深色模式</button>
+      <a class="src-link" href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">GitHub 原项目 ↗</a>
+    </div>
+  </div></aside>
+<div class="sidebar-mask" id="sidebar-mask"></div>
+<main class="main">
+  <div class="topbar">
+    <button class="menu-btn" id="menu-btn" aria-label="目录">☰</button>
+    <div class="crumbs">第二部分 · 如何写论文 · 第 13 / 19 篇</div>
+    <a class="top-src" href="index.html">目录</a>
+  </div>
+  <article class="content">
+    <header class="chapter-head">
+      <div class="chapter-group">第二部分 · 如何写论文</div>
+      <h1>如何写论文：Methods</h1>
+      <div class="chapter-meta">约 1626 字 · <a href="https://dy8q0bnq8y.feishu.cn/wiki/CtiAwh1eOiqOfCkPKVLc0WsxnZg" target="_blank" rel="noopener">查看飞书原文 ↗</a></div>
+    </header>
+    <div class="doc"><div class="callout"><p>Methods 应当是论文中相对最好写的部分，因为它主要回答一个问题：</p><p><strong>本文的方法到底是怎么做的？</strong></p><p>对于 AI 论文而言，Methods 通常需要把以下内容讲清楚：</p><ol class="doc-list"><li class="ol"><strong><span class="hl-blue">方法的核心思想。</span></strong></li><li class="ol"><strong><span class="hl-blue">问题定义和符号系统。</span></strong></li><li class="ol"><strong><span class="hl-blue">模型结构或算法流程。</span></strong></li><li class="ol"><strong><span class="hl-blue">关键模块的设计动机。</span></strong></li><li class="ol"><strong><span class="hl-blue">公式、目标函数、推导过程。</span></strong></li></ol></div><h3 id="sec-1">推荐采用“总分结构”</h3><p>Methods 一般适合采用总分结构：</p><ol class="doc-list"><li class="ol">Overview：先总体介绍方法。</li><li class="ol">Problem Formulation：定义问题和符号。</li><li class="ol">Method Details：分模块讲方法。</li><li class="ol">Training / Optimization：讲训练目标和优化方式。</li><li class="ol">Inference / Deployment：讲测试或使用阶段如何运行。</li></ol><p>这种结构的好处是，读者先看到方法全貌，再逐步进入细节，不会一开始就被公式、符号和模块名称淹没。</p><h3 id="sec-2">先写 Overview</h3><p>Methods 开头通常应先写一段 Overview，用来介绍方法的核心思想。</p><p>Overview 不需要写太多细节，而是要回答：</p><ul class="doc-list"><li class="bl">本文方法要解决什么问题？</li><li class="bl">方法的基本出发点是什么？</li><li class="bl">方法由哪些主要模块组成？</li><li class="bl">每个模块大致负责什么？</li><li class="bl">整体流程如何从输入走到输出？</li></ul><p><strong><span class="hl-pink">Overview 应该和方法的主图配合使用，主图负责让读者“看见方法”，Overview 负责让读者“理解这张图”。</span></strong></p><h3 id="sec-3">单独写 Problem Formulation</h3><p>AI 论文通常会出现很多字母、符号、变量、集合、函数和下标。如果不提前定义清楚，读者后面读公式会非常吃力。</p><p>因此，建议单独写一节 Problem Formulation。</p><p>这一节需要说明：</p><ul class="doc-list"><li class="bl">输入是什么。</li><li class="bl">输出是什么。</li><li class="bl">训练数据如何表示。</li><li class="bl">模型或函数如何表示。</li><li class="bl">目标是什么。</li><li class="bl">关键变量、集合、索引和符号分别代表什么。</li></ul><h3 id="sec-4">所有公式都要被解释</h3><p>Methods 中出现的所有公式，都应该满足三个要求：</p><ol class="doc-list"><li class="ol"><strong>公式前要说明为什么需要这个公式。</strong></li><li class="ol"><strong>公式后要解释公式中每个关键符号。</strong></li><li class="ol"><strong>公式后要说明这个公式在方法中起什么作用。</strong></li></ol><p><strong><span class="hl-pink">不要突然扔出一个公式，让读者自己猜它的意义。</span></strong></p><p>推荐结构是：</p><p>先写一句引导：</p><blockquote><p>To model ..., we define ...</p></blockquote><p>然后给出公式，</p><p>公式之后解释：</p><blockquote><p>where ... denotes ..., and ... represents ....</p></blockquote><p>最后说明作用：</p><blockquote><p>This objective encourages the model to ...</p></blockquote><p>尤其需要注意：</p><ul class="doc-list"><li class="bl">每个符号第一次出现时必须定义。</li><li class="bl">同一个符号不要在不同地方表示不同含义。</li><li class="bl">不要使用过多没有必要的下标。</li><li class="bl">公式应和正文逻辑绑定，而不是为了显得“数学化”。</li></ul><h3 id="sec-5">按模块展开 Method Details</h3><p>Overview 之后，正文应按模块展开方法细节。</p><p>比如，如果方法由三个模块组成，就可以写成：</p><ol class="doc-list"><li class="ol">Module A: ...</li><li class="ol">Module B: ...</li><li class="ol">Module C: ...</li></ol><p>每个模块可以按下面顺序写：</p><ol class="doc-list"><li class="ol">这个模块解决什么问题。</li><li class="ol">这个模块接收什么输入。</li><li class="ol">这个模块如何处理输入。</li><li class="ol">这个模块输出什么。</li><li class="ol">为什么这样设计。</li></ol><p>不要只写模块名称和公式。读者真正需要理解的是：这个模块在整个方法中承担什么功能。</p><h3 id="sec-6">算法可以用伪代码辅助说明</h3><p>如果方法流程较复杂，可以加入 Algorithm 或 Pseudocode。</p><p>伪代码不应替代正文解释。正确做法是：</p><ol class="doc-list"><li class="ol">正文先解释算法目的。</li><li class="ol">伪代码展示完整流程。</li><li class="ol">正文再解释关键步骤和设计理由。</li></ol><p>伪代码中的变量也要和正文中的符号保持一致。</p><h3 id="sec-7">写清楚本文的 novelty</h3><p><strong><span class="hl-pink">Methods 不能只描述方法，还要让读者知道：本文的新意在哪里。</span></strong></p><p>可以在每个关键模块中说明：</p><ul class="doc-list"><li class="bl">这个模块和已有方法有什么不同。</li><li class="bl">为什么需要这个设计。</li><li class="bl">它解决了什么具体问题。</li><li class="bl">如果没有这个模块会怎样。</li></ul><p>但要注意，Methods 中的 novelty 说明应当简洁，详细比较和效果证明应放在Experiments 中。</p></div>
+    <div class="pager">
+    <a class="pager-link prev" href="ch12.html"><span class="pager-label">上一篇</span><span class="pager-title">如何写论文：Related Works</span></a>
+    <a class="pager-link next" href="ch14.html"><span class="pager-label">下一篇</span><span class="pager-title">如何写论文：Experiments</span></a>
+  </div>
+    <footer class="chapter-foot">内容来自 <a href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">LAMDA-NeSy / Research-Starter-Kit</a>（作者：郭兰哲），本站为离线阅读副本，版权归原作者所有。</footer>
+  </article>
+</main>
+</div>
+<button id="back-top" title="回到顶部">↑</button>
+<script src="assets/search-index.js"></script>
+<script src="assets/book.js"></script>
+</body>
+</html>

@@ -1,0 +1,408 @@
+{
+ "url": "https://lamda3-nju.feishu.cn/wiki/Uf9fwnQFxiJS1akJZkPc87gFniq",
+ "title": "AI辅助科研的一些Tips - 飞书云文档",
+ "blocks": {
+  "2": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">快捷键</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "3": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">!</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"> </span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">→ 执行会话外的 shell 命令，输出会进入上下文</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "4": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">@</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"> </span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">→ 引用文件 / 路径 (带自动补全)</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "5": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">#</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"> </span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">→ 写记忆：把一条内容追加进 </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">CLAUDE.md</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">，不用打开文件</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "6": {
+   "payload": {
+    "outer": "<div class=\"block docx-divider-block\" data-block-type=\"divider\" data-block-id=\"6\" data-record-id=\"K1ltdKjagotw66xFenUclB9Anqh\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment divider-block-comment   local-comment-all-third-party  \"><div class=\"block-content-container\" contenteditable=\"false\"><div class=\"divider-block \"><div class=\"divider-block__container j-drag-cls\"><div class=\"divider-block__content\"></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "divider"
+  },
+  "7": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">换行(不发送)：</span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Command + J</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> 或 </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Option + Enter</span></span></span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "8": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Command + U</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">：</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">清空当前输入行</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "9": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Command + R</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">：</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">搜索历史 prompt</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "10": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Command + V</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">：</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">粘贴截图</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "11": {
+   "payload": {
+    "outer": "<div class=\"block docx-divider-block\" data-block-type=\"divider\" data-block-id=\"11\" data-record-id=\"ZwQkdbeBeoqmvyxs8APctWW1n5g\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment divider-block-comment   local-comment-all-third-party  \"><div class=\"block-content-container\" contenteditable=\"false\"><div class=\"divider-block \"><div class=\"divider-block__container j-drag-cls\"><div class=\"divider-block__content\"></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "divider"
+  },
+  "12": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Shift + Tab</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 循环切换三种模式</span><span data-string=\"true\" class=\" author-7423755822502526977\" data-leaf=\"true\">：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "13": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">普通：每次动手前询问</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "14": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">plan mode：只规划、不改文件；先规划后编码</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "15": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">auto-accept edits：自动接受编辑、连续执行</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "16": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span class=\" author-7423755822502526977\" data-leaf=\"true\"><span class=\"inline-code inline-code_start\" spellcheck=\"false\"><span data-string=\"true\">  d. </span></span></span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">claude --dangerously-skip-permissions</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">：允许所有操作</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "17": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">prompt 里写 </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">think</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> / </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">think hard</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> / </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">ultrathink</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 逐级提高推理预算</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "18": {
+   "payload": {
+    "outer": "<div class=\"block docx-divider-block\" data-block-type=\"divider\" data-block-id=\"18\" data-record-id=\"ApM4dNdsGoEA6dxvPdyc6Qj7nmg\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment divider-block-comment   local-comment-all-third-party  \"><div class=\"block-content-container\" contenteditable=\"false\"><div class=\"divider-block \"><div class=\"divider-block__container j-drag-cls\"><div class=\"divider-block__content\"></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "divider"
+  },
+  "19": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Esc</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 立刻打断当前动作(不退出会话)</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "20": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">双击 </span><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">Esc</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">(= </span><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/rewind</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">)</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 回退到之前某条消息</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "21": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/rewind</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">(checkpoints)</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 把对话或代码文件回滚</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "22": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">双击 Esc 回退对话；</span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/rewind</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> 能回滚代码文件</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "23": {
+   "payload": {
+    "outer": "<div class=\"block docx-divider-block\" data-block-type=\"divider\" data-block-id=\"23\" data-record-id=\"O9wNdwu1qogFh2xif4McVVrHnFC\"><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div><div class=\"block-comment divider-block-comment   local-comment-all-third-party  \"><div class=\"block-content-container\" contenteditable=\"false\"><div class=\"divider-block \"><div class=\"divider-block__container j-drag-cls\"><div class=\"divider-block__content\"></div></div></div></div></div><div class=\"docx-block-zero-space\"><span data-zero-space=\"true\">​</span></div></div>"
+   },
+   "type": "divider"
+  },
+  "24": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">上下文(context)是当前这段对话，</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">临时的，会话越长越满、越慢，退出当前会话就没了</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "25": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">记忆(</span><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">CLAUDE.md</span></span></span><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\">)是写进文件的项目约定，</span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">持久的、清空上下文也不丢</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "26": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/compact</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 压缩成摘要后继续，会话变慢 / 快满时用</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "27": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/clear</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 彻底清空，换全新会话</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "28": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/cost</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 查看本次 token 消耗</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "29": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">#</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 随手追加一条约定</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "30": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/init</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 扫描代码库、生成 </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">CLAUDE.md</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> 初稿</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "31": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/export</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> → 把当前所有会话内容导出成一个文件</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "32": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span style=\"font-weight:bold;\" class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">/remote-control</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">(新版本)→ 开启远程控制，从别的设备(如手机 Claude App)监控 / 操控</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "33": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "34": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">其他技巧</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "35": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">用 /branch 管理上下文</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "36": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">整个会话就像一棵树，branch 是在任意 turn 标记一个检查点，可以从这些检查点 resume</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "37": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">每个对话尽量只干一件相同研究方向的事，让上下文干净一些~</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "38": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">发现某个 turn 的尝试比较失败，可以用 /rewind 或者连续按两下 Esc 来回退</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "39": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">在动手前对齐尽可能多的细节</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "40": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">cc 老师在遇到不确定的细节时，会自以为是地以它的意思来写，并且会静默、不汇报</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "41": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">在动手前把所有细节讲解出来，与我们对齐</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "42": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">搭建 cc 自己提交任务的 pipeline</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "43": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">这样 AI 在任务初期可以有 smoke test 以及频繁的 debug 流程</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "44": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">尽量提出具体、确切的 goal</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "45": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">例如一个可以对着一个可验证的 ground truth 自我验证的任务</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "46": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">可以让它起一个 subagent 作为验证者，来评判是否达成目标，若未达成能不断重启</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "47": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">可以先用其他论文搜索工具/网站把相关文献检索好</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "48": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">多篇论文阅读的 context 是较长的，可以尝试将其用 subagent 实现，使上下文干净~</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "49": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">如果有可能，可以反复地检查代码、论文细节</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "50": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">即使是简单的重复prompt、重复检查，push 它从各种角度检查也能发现新东西</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "51": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">在 prompt 中可以表达 “不怕困难” 这样的意思，让它持续探索、不退化</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "52": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">养成 git diff 的情况，有不明白的地方要及时问它</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "53": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">它的总结总是很漂亮的，但是可能和实际改动对不上，特别是一些小细节</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "54": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">养成看 </span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">git diff</span></span></span><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\"> 的习惯，阅读真实代码，以真实 diff 为准</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "55": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">可以开多个 branch 来向它提问某个你不理解的、关键的 section</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "56": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">及时 commit~</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "57": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">对 wandb 中的数据，要先人看</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "58": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">实验中 wandb 所体现的现象，可以人先指出 xx指标出现了xx</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "59": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">它直接读 wandb 保存的数据可能需要长时间的搜索，并且可能污染上下文</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "60": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">对于实验的log（几千行），可以新开 branch 给它，它会细致地查找、定位</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "61": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">打通自动化科研需要</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading2"
+  },
+  "62": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">自动放实验、停实验、调整配置（用于监控昂贵的训练过程）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "63": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">完成之后会有消息提示（在cc中可以配置hook）</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "ordered"
+  },
+  "64": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">一些其他的小技巧~</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading3"
+  },
+  "65": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">学会使用每个项目下的</span><span class=\" author-7342907534354694172\" data-leaf=\"true\"><span class=\"inline-code inline-code_start inline-code_end\" spellcheck=\"false\"><span data-string=\"true\">CLAUDE.md</span></span></span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "66": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">它完成后提示，可以让它自己配置一个 hook</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "67": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7342907534354694172\" data-leaf=\"true\">向它解释一些禁止行为的原因</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "68": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  }
+ }
+}

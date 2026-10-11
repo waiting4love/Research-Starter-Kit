@@ -1,0 +1,156 @@
+{
+ "url": "https://dy8q0bnq8y.feishu.cn/wiki/NsK3wnWeiivKNukNJOqcd985nTY",
+ "title": "如何写论文？ - 飞书云文档",
+ "blocks": {
+  "2": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">写论文之前：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "3": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">确定论文署名：</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">按照贡献大小排序，通常论文的主要写作由第一作者执笔，通讯作者是整个研究工作的负责人。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "4": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572\" data-leaf=\"true\">确定投稿目标：</span><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">根据工作的水准，挑选合适的发表源，一般情况下是由导师来确定。</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "5": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">如何写论文</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "6": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">在论文过程中，你需要说的其实就是这些：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "7": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Problem X is important</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "8": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Previous works A, B, and C have been done</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "9": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">A, B, and C have their weakness</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "10": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Your Work D</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "11": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Why D is better</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "12": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Experimental comparsion against A, B, and C</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "13": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Strength and Weakness of D</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "14": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Future work on D</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "15": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">论文大纲</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "heading1"
+  },
+  "16": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" class=\" author-7076000738450669572\" data-leaf=\"true\">科学论文有比较清晰的结构，一般包括：</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  },
+  "17": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Title</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "18": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Abstract</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "19": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Introduction</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "20": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Related Works</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "21": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Your Contribution (Method、Observation、Benchmark、Analysis, etc.)</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "22": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Support (Theoretical or Experimental)</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "23": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Discussion</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "24": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Conclusion</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "25": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" style=\"font-weight:bold;\" class=\" author-7076000738450669572 textHighlight textHighlight-pink-text textHighlight-ccmtoken-doc-textcolor-red\" data-leaf=\"true\">Reference</span><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "bullet"
+  },
+  "26": {
+   "payload": {
+    "zoneHTML": "<div class=\"ace-line\" data-node=\"true\" dir=\"auto\"><span data-string=\"true\" data-enter=\"true\" data-leaf=\"true\">​</span></div>"
+   },
+   "type": "text"
+  }
+ }
+}

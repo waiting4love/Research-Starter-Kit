@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>如何写论文：Abstract · 科研入门指南</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="theme-init">
+<div id="progress-bar"></div>
+<div class="layout">
+<aside class="sidebar" id="sidebar"><div class="sidebar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">研</span><span class="brand-text">科研入门指南</span></a>
+    <div class="search-wrap"><input id="search-input" type="search" placeholder="搜索全书…  ( / )"><div id="search-results"></div></div>
+    <nav class="nav"><div class="nav-group"><div class="nav-group-title">第一部分 · 如何做科研</div><a class="nav-link" href="ch01.html">如何做科研？</a><a class="nav-link" href="ch02.html">如何找论文？</a><a class="nav-link" href="ch03.html">如何读论文？</a><a class="nav-link" href="ch04.html">如何想 Idea？</a><a class="nav-link" href="ch05.html">如何进行学术汇报</a><a class="nav-link" href="ch06.html">如何高效 Meeting</a><a class="nav-link" href="ch07.html">一些好的习惯</a></div><div class="nav-group"><div class="nav-group-title">第二部分 · 如何写论文</div><a class="nav-link" href="ch08.html">如何写论文？</a><a class="nav-link" href="ch09.html">论文画图指南</a><a class="nav-link active" href="ch10.html">如何写论文：Abstract</a><a class="nav-link" href="ch11.html">如何写论文：Introduction</a><a class="nav-link" href="ch12.html">如何写论文：Related Works</a><a class="nav-link" href="ch13.html">如何写论文：Methods</a><a class="nav-link" href="ch14.html">如何写论文：Experiments</a><a class="nav-link" href="ch15.html">如何写论文：Reference</a><a class="nav-link" href="ch16.html">如何 Rebuttal</a></div><div class="nav-group"><div class="nav-group-title">第三部分 · 杂项</div><a class="nav-link" href="ch17.html">学术会议参会指南</a><a class="nav-link" href="ch18.html">有哪些能申请的奖学金？</a><a class="nav-link" href="ch19.html">AI 辅助科研的一些 Tips</a></div></nav>
+    <div class="sidebar-foot">
+      <button id="theme-toggle" title="切换深浅色">🌙 深色模式</button>
+      <a class="src-link" href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">GitHub 原项目 ↗</a>
+    </div>
+  </div></aside>
+<div class="sidebar-mask" id="sidebar-mask"></div>
+<main class="main">
+  <div class="topbar">
+    <button class="menu-btn" id="menu-btn" aria-label="目录">☰</button>
+    <div class="crumbs">第二部分 · 如何写论文 · 第 10 / 19 篇</div>
+    <a class="top-src" href="index.html">目录</a>
+  </div>
+  <article class="content">
+    <header class="chapter-head">
+      <div class="chapter-group">第二部分 · 如何写论文</div>
+      <h1>如何写论文：Abstract</h1>
+      <div class="chapter-meta">约 1971 字 · <a href="https://dy8q0bnq8y.feishu.cn/wiki/Tz2pwvxTyiBK0zkCVszcZmJ3nwd" target="_blank" rel="noopener">查看飞书原文 ↗</a></div>
+    </header>
+    <div class="doc"><h4>基本思路</h4><p>论文摘要并非“论文简介”，而更应被视为一份<strong>贡献说明书（statement of contribution）</strong>。其目标不是全面概述论文内容，而是在有限篇幅内，使审稿人清晰地理解：<strong>本文解决了什么问题、提出了什么关键思想、以及这些贡献对领域的意义何在</strong>。因此，摘要不宜冗长，而应高度凝练、逻辑清晰。</p><h4>五句话原则</h4><p>在一般情况下，摘要可以遵循下面的 <strong>“五句话原则”</strong>，对应五个核心要素：</p><ol class="doc-list"><li class="ol"><strong>任务背景(Context)-- 1句话</strong></li><li class="ol">用最精炼的语言描述论文的大方向与任务范畴，使审稿人能够在第一时间判断论文所属领域以及所关注的核心问题。不要铺垫过多常识，直接切入主题。</li><li class="ol"><strong>科学问题(Problem)--1-2句</strong><strong><span class="hl-pink">（最关键）</span></strong></li><li class="ol">这是比方法还要关键的部分，要讲出来现有研究的挑战与痛点</li><li class="ol">理想情况下，这里要是一个“结构性问题”而不是一个“经验现象”，或者从经验现象出发，总结出来的结构性问题。</li><li class="ol">比如，LLMs often fail in xxxx task，这就属于经验现象，给人一种修修补补、贡献不大的感觉，一下子就掉到了boarline区域。</li><li class="ol">要给出一些更加本质的问题，从现象上升到机理，比如是理论有缺陷，泛化能力弱，还是稳健性不足？</li><li class="ol"><strong>方法创新(Methodology)--1-2句</strong></li><li class="ol">提出核心的解决方案，要尽可能的凝练出思想，不要堆太多细节，比如要解决稳健性弱的问题，是通过什么方法解决的，提出了新的架构？新的损失？还是新的数据合成方法？核心的思想是什么？</li><li class="ol">关键在于让审稿人理解“为什么这种方法在逻辑上能够解决前述问题”</li><li class="ol"><strong>结论与贡献(Results)--1句</strong></li><li class="ol">实验描述应以<strong>具体、可量化的指标</strong>为主，而非泛泛而谈；很多同学喜欢直接写一句significant performance improvement，这种写法就很普通，因为所有的论文都可以这么写。反之，明确指出在多少个数据集、对比了哪些代表性方法，以及在什么指标上取得了多大幅度的提升，会更具说服力。</li><li class="ol">另外有一点非常重要但是经常被忽略的，<strong>实验结论应当与前文提出的科学问题形成明确呼应与逻辑闭环</strong>，比如，如果论文声称解决的是稳健性不足的问题，那么实验中就应突出在何种干扰或变化下，本文方法相较于现有方法提升了多少稳健性；相比之下，仅报告整体 accuracy 往往不足以支撑核心 claim。</li></ol><h4>优秀案例</h4><ol class="doc-list"><li class="ol">下面这个例子取自论文Train for theWorst, Plan for the Best: Understanding Token Ordering in Masked Diffusions（ICML 2025 Outstanding Paper)，是一个从问题分析出发提出算法的文章。问题部分非常明确和本质“trade off complexity at training time with flexibility at inference time"，结论部分，非常有说服力：from 7% to 90%，超越了7倍参数量的模型</li></ol><figure class="doc-img"><img src="assets/img/doc10_b22i0.png" alt="" loading="lazy"></figure><ol class="doc-list"><li class="ol">下面这一个例子，取自ICML 2025 Oral Paper: Accelerating LLM Inference with Lossless Speculative Decoding Algorithms for Heterogeneous Vocabularies。属于非常常见的解决现有xxx方法xx问题的文章，跟大部分同学做的比较像。也是一句话确定背景，LLM推理加速很重要。然后用两句话指出问题，SD方法require the drafer and target models share the same vocabulary。然后一句话讲清楚本文工作，提出了一种不依赖shared-vocabulary constraint的方法，实验结果，回应LLM加速的问题，不依赖约束，实现了2.8倍的加速。</li></ol><figure class="doc-img"><img src="assets/img/doc10_b24i0.png" alt="" loading="lazy"></figure><ol class="doc-list"><li class="ol">这是一个benchmark论文的例子，取自ICML 2025 Oral Paper: LLM-SRBench: A New Benchmark for Scientific Equation Discovery with Large Language Models。也是一句话确定背景，Scientific equation discovery很重要。然后2句话明确背景与问题，LLM用于SR得到了很多关注，但是难以评估，不能反映真实能力；本文提出了一个LLM-SRBench，覆盖了多少个问题（有数字，239），4个领域，2大类别LLM-Transform和LSR-Synth。最后实验评估了多少模型，这里如果把several SOTA methods换成评估了几类算法、多少个模型会更好。结论发现了什么现象、对该领域有何贡献。</li></ol><figure class="doc-img"><img src="assets/img/doc10_b26i0.png" alt="" loading="lazy"></figure></div>
+    <div class="pager">
+    <a class="pager-link prev" href="ch09.html"><span class="pager-label">上一篇</span><span class="pager-title">论文画图指南</span></a>
+    <a class="pager-link next" href="ch11.html"><span class="pager-label">下一篇</span><span class="pager-title">如何写论文：Introduction</span></a>
+  </div>
+    <footer class="chapter-foot">内容来自 <a href="https://github.com/LAMDA-NeSy/Research-Starter-Kit" target="_blank" rel="noopener">LAMDA-NeSy / Research-Starter-Kit</a>（作者：郭兰哲），本站为离线阅读副本，版权归原作者所有。</footer>
+  </article>
+</main>
+</div>
+<button id="back-top" title="回到顶部">↑</button>
+<script src="assets/search-index.js"></script>
+<script src="assets/book.js"></script>
+</body>
+</html>
