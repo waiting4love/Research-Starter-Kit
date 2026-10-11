@@ -80,8 +80,8 @@ def make_cover_png(path):
                     continue
         return ImageFont.load_default()
 
-    hei = [r'C:\Windows\Fonts\simhei.ttf', r'C:\Windows\Fonts\msyhbd.ttc', r'C:\Windows\Fonts\msyh.ttc']
-    yh = [r'C:\Windows\Fonts\msyh.ttc', r'C:\Windows\Fonts\simhei.ttf']
+    hei = [r'C:\Windows\Fonts\simhei.ttf', r'C:\Windows\Fonts\msyhbd.ttc', r'C:\Windows\Fonts\msyh.ttc', '/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc', '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc']
+    yh = [r'C:\Windows\Fonts\msyh.ttc', r'C:\Windows\Fonts\simhei.ttf', '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc']
 
     # 顶部装饰条
     d.rectangle([0, 0, W, 14], fill=accent)

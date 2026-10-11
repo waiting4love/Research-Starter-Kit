@@ -10,15 +10,19 @@
 | `科研入门指南.epub` | EPUB 3：含封面、嵌套目录、书签，适合 Apple Books / Calibre / 手机阅读器 |
 | `科研入门指南.pdf` | A4 排版：封面、目录页码、页脚页码、阅读器书签导航，可直接打印 |
 
-## 重建方法
+**EPUB 与 PDF 由 CI 自动生成**：推送到 `ebook` 分支后，[Actions 工作流](../../actions/workflows/ebook.yml)会自动构建并在 Artifacts 里提供下载（二进制文件不入库）。
 
-依赖：Node.js、Python 3（`pymupdf`）、Playwright（可用系统 Edge：`PLAYWRIGHT_CHROMIUM_PATH` 指向 msedge.exe）。
+## 本地重建
+
+依赖：Node.js 20+、Python 3（`pymupdf`、`pillow`）、Playwright Chromium（Linux 自动探测；Windows 本地需设 `PLAYWRIGHT_CHROMIUM_PATH` 指向 Edge/Chrome）。
 
 ```bash
 node build.js          # 生成 HTML 静态书（book/）
-python build_epub.py   # 生成 EPUB（需 raw/ 数据）
-python finish_pdf.py   # 生成 PDF（需 raw/ 数据 + Playwright/Edge）
+python build_epub.py   # 生成 EPUB
+python finish_pdf.py   # 生成 PDF（tools/pdf 为渲染脚本）
 ```
 
-- `raw/*.json`：从飞书文档抓取的块级结构数据（构建的输入，含完整性校验记录）
-- `build.js` / `build_epub.py` / `build_print.js` / `finish_pdf.py`：HTML、EPUB、打印版与 PDF 流水线脚本
+- `raw/*.json`：从飞书文档抓取的块级结构数据（构建输入，36 张插图已本地化）
+- `build.js` / `build_epub.py` / `build_print.js` / `finish_pdf.py`：HTML、EPUB、打印版与 PDF 流水线
+- `tools/pdf/`：Playwright 渲染脚本（来自 ZCode pdf 技能）
+- `.github/workflows/ebook.yml`：CI 构建（Ubuntu + Playwright Chromium + Noto CJK 字体）

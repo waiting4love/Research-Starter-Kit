@@ -1,0 +1,67 @@
+# 离线电子书构建：raw/ 数据或脚本变更时自动重新生成 EPUB / PDF
+# 产物在 Actions 页面以 Artifacts 形式提供下载（二进制不入库）
+name: build-ebook
+
+on:
+  push:
+    branches: [ebook, main]
+    paths:
+      - 'raw/**'
+      - 'build.js'
+      - 'build_epub.py'
+      - 'build_print.js'
+      - 'finish_pdf.py'
+      - 'tools/**'
+      - '.github/workflows/ebook.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装 CJK 与表情字体（PDF 渲染需要）
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-color-emoji
+
+      - name: 安装 Node 依赖（Playwright 驱动 + pdf-lib）
+        run: |
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm install playwright pdf-lib
+
+      - name: 安装 Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: 安装 Python 依赖
+        run: pip install --break-system-packages pymupdf pillow
+
+      - name: 构建三种格式
+        run: |
+          node build.js
+          python3 build_epub.py
+          python3 finish_pdf.py
+
+      - name: 上传 EPUB
+        uses: actions/upload-artifact@v4
+        with:
+          name: 科研入门指南-epub
+          path: book/科研入门指南.epub
+
+      - name: 上传 PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: 科研入门指南-pdf
+          path: book/科研入门指南.pdf

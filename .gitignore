@@ -1,6 +1,10 @@
-# 构建临时产物
 epub_tmp/
 *.bad.xml
 qa-*.png
 raw/ssr/
 .DS_Store
+node_modules/
+book/科研入门指南.epub
+book/科研入门指南.pdf
+book/body.pdf
+book/cover.pdf

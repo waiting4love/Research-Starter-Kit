@@ -57,7 +57,7 @@ const html = `<!DOCTYPE html>
 @page { size: A4; margin: 20mm 18mm 22mm 18mm; }
 html, body { margin: 0; padding: 0; background: #faf8f4; }
 body {
-  font-family: "SimSun", "Source Han Serif SC", "Noto Serif SC", serif;
+  font-family: "SimSun", "Noto Serif CJK SC", "Source Han Serif SC", "Noto Serif SC", serif;
   font-size: 11.5pt; line-height: 1.95; color: #2b2a27;
   line-break: strict;
   -webkit-print-color-adjust: exact; print-color-adjust: exact;
@@ -65,10 +65,10 @@ body {
 
 /* ---------- 目录 ---------- */
 .toc { page-break-after: always; }
-.toc > h1 { font-family: "Microsoft YaHei", sans-serif; font-size: 20pt; margin: 0 0 10mm; }
+.toc > h1 { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 20pt; margin: 0 0 10mm; }
 .toc-part { margin-bottom: 9mm; }
 .toc-part-title {
-  font-family: "Microsoft YaHei", sans-serif; font-size: 13pt; color: #b3541e;
+  font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 13pt; color: #b3541e;
   border-left: 3.5px solid #b3541e; padding-left: 8px; margin-bottom: 4mm; font-weight: 700;
 }
 .toc-row { display: flex; align-items: baseline; text-decoration: none; color: #2b2a27; margin: 2.6mm 0 2.6mm 12px; font-size: 11.5pt; }
@@ -79,9 +79,9 @@ body {
 /* ---------- 章节 ---------- */
 .chapter { page-break-before: always; }
 .ch-head { break-inside: avoid; margin-bottom: 9mm; }
-.ch-group { font-family: "Microsoft YaHei", sans-serif; font-size: 10.5pt; color: #b3541e; letter-spacing: 2px; }
+.ch-group { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 10.5pt; color: #b3541e; letter-spacing: 2px; }
 .ch-head h1 {
-  font-family: "Microsoft YaHei", sans-serif; font-size: 23pt; margin: 2.5mm 0 3mm; line-height: 1.4;
+  font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; font-size: 23pt; margin: 2.5mm 0 3mm; line-height: 1.4;
   break-after: avoid;
 }
 .ch-meta { font-size: 9.5pt; color: #6b675f; border-bottom: 1px solid #e3ddd2; padding-bottom: 3mm; }
@@ -90,7 +90,7 @@ body {
 /* ---------- 正文 ---------- */
 .doc { text-align: justify; }
 .doc p { margin: 0.55em 0; }
-.doc h2, .doc h3, .doc h4, .doc h5 { font-family: "Microsoft YaHei", sans-serif; break-after: avoid; color: #2b2a27; }
+.doc h2, .doc h3, .doc h4, .doc h5 { font-family: "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; break-after: avoid; color: #2b2a27; }
 .doc h2 { font-size: 15.5pt; margin: 1.35em 0 0.55em; }
 .doc h3 { font-size: 13pt; margin: 1.2em 0 0.45em; }
 .doc h4, .doc h5 { font-size: 11.5pt; margin: 1.1em 0 0.4em; }
@@ -164,7 +164,7 @@ const coverHtml = `<!DOCTYPE html>
 html, body { margin: 0; padding: 0; background: #f7f5f1; }
 .poster {
   width: 210mm; height: 297mm; position: relative; background: #f7f5f1;
-  font-family: "Microsoft YaHei", "PingFang SC", sans-serif; color: #2b2a27;
+  font-family: "Microsoft YaHei", "Noto Sans CJK SC", "PingFang SC", sans-serif; color: #2b2a27;
   -webkit-print-color-adjust: exact; print-color-adjust: exact;
 }
 .topbar { position: absolute; top: 0; left: 0; width: 210mm; height: 5mm; background: #b3541e; }

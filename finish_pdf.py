@@ -1,14 +1,17 @@
 # -*- coding: utf-8 -*-
-# PDF 后处理：二轮回填目录页码 + 合并封面 + 页码印章 + 书签 + 元数据
+# PDF 后处理流水线：重建打印版 + 封面 + 正文渲染 + 二轮回填目录页码 + 合并 + 页码印章 + 书签
+# 跨平台：Windows 本地需设置 PLAYWRIGHT_CHROMIUM_PATH 指向 Edge/Chrome；
+#         Linux/CI 下 Playwright 自装的 Chromium 会被自动探测，无需设置。
+import os
 import re
 import subprocess
 import sys
 
 import pymupdf
 
-BOOK = r'C:\Users\yongj\.zcode\workspace\default\research-book\book'
-SKILL = r'C:\Users\yongj\.zcode\cli\plugins\cache\zcode-plugins-official\pdf\0.1.7\skills\pdf\scripts'
-EDGE = r'C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe'
+ROOT = os.path.dirname(os.path.abspath(__file__))
+BOOK = os.path.join(ROOT, 'book')
+TOOLS = os.path.join(ROOT, 'tools', 'pdf')
 
 CHAPTER_TITLES = [
     '如何做科研？', '如何找论文？', '如何读论文？', '如何想 Idea？', '如何进行学术汇报',
@@ -21,40 +24,46 @@ PART_OF = [0]*7 + [1]*9 + [2]*3
 PART_NAMES = ['第一部分 · 如何做科研', '第二部分 · 如何写论文', '第三部分 · 杂项']
 
 
+def node_env():
+    env = dict(os.environ)
+    if not env.get('PLAYWRIGHT_CHROMIUM_PATH'):
+        env.pop('PLAYWRIGHT_CHROMIUM_PATH', None)  # 让 Playwright 自动探测自装 Chromium
+    return env
+
+
+def run(cmd, cwd=None):
+    r = subprocess.run(cmd, capture_output=True, text=True, env=node_env(), cwd=cwd or ROOT)
+    if r.returncode != 0:
+        print((r.stdout or '')[-1200:], (r.stderr or '')[-800:])
+        sys.exit(1)
+    return r.stdout
+
+
 def render_print_html():
     # 从最新章节 HTML 重建打印版（防止用旧版渲染）
-    r = subprocess.run(['node', 'build_print.js'], capture_output=True, text=True,
-                       cwd=r'C:\Users\yongj\.zcode\workspace\default\research-book')
-    if r.returncode != 0:
-        print(r.stdout[-500:], r.stderr[-500:])
-        sys.exit(1)
+    run(['node', 'build_print.js'])
     print('  print.html rebuilt')
 
 
 def render_cover():
-    cmd = ['node', SKILL + r'\html2poster.js', BOOK + r'\cover.html',
-           '--output', BOOK + r'\cover.pdf', '--width', '210mm']
-    r = subprocess.run(cmd, capture_output=True, text=True, env={**__import__('os').environ, 'PLAYWRIGHT_CHROMIUM_PATH': EDGE}, cwd=BOOK)
-    if r.returncode != 0:
-        print(r.stdout[-800:], r.stderr[-500:])
-        sys.exit(1)
+    run(['node', os.path.join('tools', 'pdf', 'html2poster.js'),
+         os.path.join('book', 'cover.html'),
+         '--output', os.path.join('book', 'cover.pdf'),
+         '--width', '210mm'], cwd=ROOT)
     print('  cover rendered')
 
 
 def render_body():
-    env = {'PLAYWRIGHT_CHROMIUM_PATH': EDGE}
-    cmd = ['node', SKILL + r'\html2pdf-next.js', BOOK + r'\print.html',
-           '--output', BOOK + r'\body.pdf', '--title', '科研入门指南：从0开始，掌握做科研、写论文的基本流程']
-    r = subprocess.run(cmd, capture_output=True, text=True, env={**__import__('os').environ, **env}, cwd=BOOK)
-    if r.returncode != 0:
-        print(r.stdout[-1500:], r.stderr[-800:])
-        sys.exit(1)
-    m = re.search(r'Pages:\s+(\d+)', r.stdout)
+    out = run(['node', os.path.join('tools', 'pdf', 'html2pdf-next.js'),
+               os.path.join('book', 'print.html'),
+               '--output', os.path.join('book', 'body.pdf'),
+               '--title', '科研入门指南：从0开始，掌握做科研、写论文的基本流程'], cwd=ROOT)
+    m = re.search(r'Pages:\s+(\d+)', out)
     print('  body rendered:', m.group(1) if m else '?', 'pages')
 
 
 def find_chapter_pages():
-    doc = pymupdf.open(BOOK + r'\body.pdf')
+    doc = pymupdf.open(os.path.join(BOOK, 'body.pdf'))
     pages = []
     for pno in range(doc.page_count):
         text = doc[pno].get_text()
@@ -68,7 +77,8 @@ def find_chapter_pages():
 
 def backfill_toc(pages_body):
     # 目录显示页码 = 最终 PDF 页码 = body 页序 + 封面 1 页 + 1
-    with open(BOOK + r'\print.html', 'r', encoding='utf-8') as f:
+    path = os.path.join(BOOK, 'print.html')
+    with open(path, 'r', encoding='utf-8') as f:
         html = f.read()
     changed = 0
     for i, title in enumerate(CHAPTER_TITLES):
@@ -79,17 +89,17 @@ def backfill_toc(pages_body):
         pat = r'(data-ch="ch%02d">)[^<]*' % (i + 1)
         html, n = re.subn(pat, r'\g<1>%02d' % final_page, html)
         changed += n
-    with open(BOOK + r'\print.html', 'w', encoding='utf-8') as f:
+    with open(path, 'w', encoding='utf-8') as f:
         f.write(html)
     print('  TOC backfilled:', changed, 'entries')
 
 
 def merge_and_finish(pages_body):
-    doc = pymupdf.open(BOOK + r'\body.pdf')
-    cover = pymupdf.open(BOOK + r'\cover.pdf')
+    doc = pymupdf.open(os.path.join(BOOK, 'body.pdf'))
+    cover = pymupdf.open(os.path.join(BOOK, 'cover.pdf'))
     doc.insert_pdf(cover, start_at=0)  # 封面插到最前
     cover.close()
-    # 封面页尺寸归一到与正文一致（消除 ~1pt 差异）
+    # 封面页尺寸归一到与正文一致（消除亚点级差异）
     target = doc[1].rect
     p0 = doc[0]
     if abs(p0.rect.width - target.width) > 0.1 or abs(p0.rect.height - target.height) > 0.1:
@@ -103,17 +113,8 @@ def merge_and_finish(pages_body):
         tw = pymupdf.get_text_length(label, fontname='helv', fontsize=9)
         page.insert_text((w / 2 - tw / 2, h - 28), label, fontname='helv', fontsize=9, color=(0.45, 0.44, 0.41))
 
-    # 书签
-    toc = [[1, '封面', 1], [1, '目录', 2]]
-    last_part = -1
-    for i, p in enumerate(pages_body[:19]):
-        final_page = p + 2
-        if PART_OF[i] != last_part:
-            last_part = PART_OF[i]
-            toc.append([1, PART_NAMES[last_part], final_page])
-        toc.append([2, CHAPTER_TITLES[i], final_page])
     # 站内引用 → 内部跳转链接：在每页检索章节标题文本，命中处加 GoTo 注记
-    # （Edge 的 print-to-PDF 不会把 #锚点 转成 PDF 内部链接）
+    # （Edge/Chromium 的 print-to-PDF 不会把 #锚点 转成 PDF 内部链接）
     # 兼容带空格/无空格两种写法（正文引用常写作"如何想Idea？"，标题为"如何想 Idea？"）
     added = 0
     for i, title in enumerate(CHAPTER_TITLES[:19]):
@@ -136,6 +137,15 @@ def merge_and_finish(pages_body):
                 added += 1
     print('  internal links injected:', added)
 
+    # 书签
+    toc = [[1, '封面', 1], [1, '目录', 2]]
+    last_part = -1
+    for i, p in enumerate(pages_body[:19]):
+        final_page = p + 2
+        if PART_OF[i] != last_part:
+            last_part = PART_OF[i]
+            toc.append([1, PART_NAMES[last_part], final_page])
+        toc.append([2, CHAPTER_TITLES[i], final_page])
     doc.set_toc(toc)
 
     doc.set_metadata({
@@ -146,20 +156,20 @@ def merge_and_finish(pages_body):
         'producer': 'Z.ai',
         'keywords': '科研, 论文写作, 读论文, Rebuttal, LAMDA',
     })
-    out = BOOK + r'\科研入门指南.pdf'
+    out = os.path.join(BOOK, '科研入门指南.pdf')
     doc.save(out, garbage=3, deflate=True)
     print('  final saved:', out, '| pages:', doc.page_count)
     doc.close()
 
 
 if __name__ == '__main__':
-    print('[1/5] 重建打印版 + 渲染封面 + 首轮正文 + 定位章节页')
+    print('[1/4] 重建打印版 + 渲染封面 + 首轮正文 + 定位章节页')
     render_print_html()
     render_cover()
     render_body()
     pages = find_chapter_pages()
     print('  chapter start pages (body):', pages)
-    print('[2/5] 回填目录页码并重渲染')
+    print('[2/4] 回填目录页码并重渲染')
     backfill_toc(pages)
     render_body()
     pages2 = find_chapter_pages()
@@ -170,6 +180,6 @@ if __name__ == '__main__':
         pages2 = find_chapter_pages()
         if pages2 != pages2:
             sys.exit('page drift did not settle')
-    print('[3/5] 合并封面 + 印章 + 书签')
+    print('[3/4] 合并封面 + 印章 + 链接 + 书签')
     merge_and_finish(pages2)
-    print('[4/5] done')
+    print('[4/4] done')
